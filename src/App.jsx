@@ -25,9 +25,16 @@ export default function App() {
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
     map.current.on('move', () => {
-      setLng(map.current.getCenter().lng.toFixed(4));
-      setLat(map.current.getCenter().lat.toFixed(4));
+      setLng(map.current.getCenter().lng.toFixed(6));
+      setLat(map.current.getCenter().lat.toFixed(6));
       setZoom(map.current.getZoom().toFixed(2));
+    
+      if((lat > 28.04 && lat < 28.08) && (lng > -80.8 && lng < -80.4)) {
+        setInFloridaTech("True!");
+      } else {
+        setInFloridaTech("False!");
+      }
+
     });
   });
 
