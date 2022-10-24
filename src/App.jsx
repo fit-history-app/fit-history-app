@@ -1,6 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 
+// Import this to get geolocate controls??????
+import {GeolocateControl} from 'react-map-gl';
+
 mapboxgl.accessToken = 'pk.eyJ1IjoidGVlbWFuMjIiLCJhIjoiY2w5ZDcxbWh0MDM4MTN3dDl3Nnk1bmh2MyJ9.kfti7m0R9PtYzfP-c7qK2Q';
 
 export default function App() {
@@ -21,6 +24,8 @@ export default function App() {
       zoom: zoom
     });
   });
+
+
 
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
@@ -68,13 +73,13 @@ export default function App() {
       <div className="sidebar">
         Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} | Florida Tech: {inFloridaTech}
       </div>
-      <div ref={mapContainer} className="map-container" />
-      <div classname="Get coords">
+      <div ref={mapContainer} className="map-container"></div>
+      <div align="center" classname="Get coords">
         <h1>Get Coordinates by Clicking Below</h1>
         <button onClick={getLocation}>Get Location</button>
         {status && <p>{status}</p>}
-		{lat && <p>Latitude: {lat}</p>}
-		{lng && <p>Longitude: {lng}</p>}
+		    {lat && <p>Latitude: {lat}</p>}
+		    {lng && <p>Longitude: {lng}</p>}
       </div>
     </div>
   );
