@@ -15,6 +15,14 @@ export default function App() {
   const [inFloridaTech, setInFloridaTech] = useState(null);
   const [status, setStatus] = useState(null);
 
+  // Set function and parameters for Geolocate
+  const geolocate = new mapboxgl.GeolocateControl({
+    positionOptions: {
+      enableHighAccuracy: true
+    },
+    trackUserLocation: true
+  });
+
   useEffect(() => {
     if (map.current) return; // initialize map only once
     map.current = new mapboxgl.Map({
@@ -23,9 +31,8 @@ export default function App() {
       center: [lng, lat],
       zoom: zoom
     });
+    map.current.addControl(geolocate); // Add Geolocate button
   });
-
-
 
   useEffect(() => {
     if (!map.current) return; // wait for map to initialize
