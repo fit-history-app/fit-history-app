@@ -28,6 +28,11 @@ code {
     monospace;
 }
 
+timeline {
+   height: 400px;
+   width: 1em;
+}
+
 .App {
     display: flex;
     flex-direction: column;
