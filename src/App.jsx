@@ -21,6 +21,7 @@ export default function App() {
    // HISTORY TIMELINE UI
    var history, val, item, items = [];
    const [app_history,setData]=useState([]);
+   
    // Make method
    const getData=()=>{
       fetch(facts).then(f => f.text()).then(text =>
@@ -30,11 +31,11 @@ export default function App() {
             //console.log(history);
             return history
          });
-   }
+   };
    // Get Data On Load
    useEffect(()=>{
       getData()
-    },[])
+    },[]);
    
     //console.log(app_history)
    for (val in app_history) {
@@ -45,55 +46,61 @@ export default function App() {
       
       // Loop through
       for (item in app_history[val]) {
-         console.log("Item = ",app_history[val][item].description.split('-'))
+         //console.log("Item = ",app_history[val][item].description.split('-'));
          items.push({
             title: app_history[val][item].year,
             cardTitle: app_history[val][item].Event,
             cardSubtitle: app_history[val][item].description.split('-')[1],
             cardDetailedText: app_history[val][item].description.split('-').slice(2, -1),
-         })
+         });
          //console.log(items)
       }
    }
-   console.log(items)
-   items = [
-      {
-         title: "1950",
-         cardTitle: "First Rocket Launch",
-         cardSubtitle: "The first rocket launch from Cape Canaveral occurred on July 24, 1950.",
-         cardDetailedText: "Bumper 8 was a modified German V-2 with a WAC Corporal as its second stage.",
-      },
-      {
-         title: "1958",
-         cardTitle: "The Founding of Brevard Engineering College",
-         cardSubtitle: "On July 6, 1958, Jerry Keuper and Harold Dibble organized an engineer’s cotillion at the Trade Winds Hotel to rally support for the proposed College.",
-         cardDetailedText: ["The Engineer’s Cotillion provided money to pay for newspaper ads and class schedules.", 
-         "In 1958, 148 male students and 6 female students signed up for BEC’s first Fall term, the average age was 33.",
-         "The University of Melbourne allowed BEC to use its building on Country Club Road as its college office.",
-         "Classes were Scheduled from 7 to 10 on Monday, Wednesday, and Friday Evenings in three rented class rooms at Eau Gallie Junior High School.",
-         "Tuition was $35 for one course, $68 for two courses, and $98 for three courses."],
-      },
-      {
-         title: "1959",
-         cardTitle: "BEC’s First Relocation",
-         cardSubtitle: "In 1959, BEC had to relocate its classes to the First Methodist Church at Waverly place.",
-         cardDetailedText: "This was due to the presence of African-American students, the Junior High would not allow BEC to host classes there anymore.",
-      },
-      {
-         title: "1960",
-         cardTitle: "BEC’s Second Relocation",
-         cardSubtitle: "In 1960, BEC moved to its third home at Radiations Inc. ‘s Building NO. 1, adjacent to Melbourne’s airport.",
-         cardDetailedText: ["Radiation Inc. now known as Harris Corporation (Now in 2022, known as L3Harris), founded by Homer Denius and George Shaw.",
-         "Shaw was a BEC trustee, and Denius was committed to the University, promising to donate 1,000 shares of Radiation stock to the school if it could not find a permanent home in Melbourne."],
-      },
-      {
-         title: "1961",
-         cardTitle: "BEC’s First Building",
-         cardSubtitle: "In April 1961, Homer Denius, president of Radiation Inc., donated 1,000 shares of Radiation stock to help finance the administration building and first classrooms.",
-         cardDetailedText: ["The 9,285- sq ft construction cost $75,000.",
-         "The Admin. Building (later named the John Miller Building) and the first classrooms were completed in May 1961."],
-      }
-   ]
+   console.log(items);
+
+   // Backup if data can't be read
+   if (items == null) {
+      items = [
+         {
+            title: "1950",
+            cardTitle: "First Rocket Launch",
+            cardSubtitle: "The first rocket launch from Cape Canaveral occurred on July 24, 1950.",
+            cardDetailedText: "Bumper 8 was a modified German V-2 with a WAC Corporal as its second stage.",
+         },
+         {
+            title: "1958",
+            cardTitle: "The Founding of Brevard Engineering College",
+            cardSubtitle: "On July 6, 1958, Jerry Keuper and Harold Dibble organized an engineer’s cotillion at the Trade Winds Hotel to rally support for the proposed College.",
+            cardDetailedText: ["The Engineer’s Cotillion provided money to pay for newspaper ads and class schedules.", 
+            "In 1958, 148 male students and 6 female students signed up for BEC’s first Fall term, the average age was 33.",
+            "The University of Melbourne allowed BEC to use its building on Country Club Road as its college office.",
+            "Classes were Scheduled from 7 to 10 on Monday, Wednesday, and Friday Evenings in three rented class rooms at Eau Gallie Junior High School.",
+            "Tuition was $35 for one course, $68 for two courses, and $98 for three courses."],
+         },
+         {
+            title: "1959",
+            cardTitle: "BEC’s First Relocation",
+            cardSubtitle: "In 1959, BEC had to relocate its classes to the First Methodist Church at Waverly place.",
+            cardDetailedText: "This was due to the presence of African-American students, the Junior High would not allow BEC to host classes there anymore.",
+         },
+         {
+            title: "1960",
+            cardTitle: "BEC’s Second Relocation",
+            cardSubtitle: "In 1960, BEC moved to its third home at Radiations Inc. ‘s Building NO. 1, adjacent to Melbourne’s airport.",
+            cardDetailedText: ["Radiation Inc. now known as Harris Corporation (Now in 2022, known as L3Harris), founded by Homer Denius and George Shaw.",
+            "Shaw was a BEC trustee, and Denius was committed to the University, promising to donate 1,000 shares of Radiation stock to the school if it could not find a permanent home in Melbourne."],
+         },
+         {
+            title: "1961",
+            cardTitle: "BEC’s First Building",
+            cardSubtitle: "In April 1961, Homer Denius, president of Radiation Inc., donated 1,000 shares of Radiation stock to help finance the administration building and first classrooms.",
+            cardDetailedText: ["The 9,285- sq ft construction cost $75,000.",
+            "The Admin. Building (later named the John Miller Building) and the first classrooms were completed in May 1961."],
+         }
+      ]
+   };
+
+   
 
    // Set function and parameters for Geolocate
    const geolocate = new mapboxgl.GeolocateControl({
@@ -169,7 +176,7 @@ export default function App() {
             {lng && <p>Longitude: {lng}</p>}
          </div>
          <div className='timeline'>
-            <Chrono items={items} mode='HORIZONTAL'/>
+            <Chrono items={items} allowDynamicUpdate={true} mode='HORIZONTAL'/>
          </div>
       </div>
    );
