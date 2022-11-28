@@ -1,44 +1,43 @@
 ---
-Decade: 
-  -1950s: 
-    - Event: First Rocket Launch
-      year: 1950
-      description: 
-        -The first rocket launch from Cape Canaveral occurred on July 24, 1950.
-        -Bumper 8 was a modified German V-2 with a WAC Corporal as its second stage.
-    - Event: Cocoa Beach Population Boom
-      year: 1950s
-      description: 
-        -At the beginning of WW2, Cocoa Beach had a year round population of 31
-        -By 1950, this population grew to 245
-        -Over the next 10 years, Brevard County had 75,000 new residents, due to the space race
-    - Event: The Launch of Sputnik
-      year: 1957
-      description:
-        -On October 4, 1957, soviet satellite “Sputnik” was launched, starting the space race. 
-    - Event: America’s First Satellite
-      year: 1958 
-      description: 
-        -Explorer I was launched on January 31, 1958
-    - Event: Melbourne Population Boom 
-      year: 1950s
-      description: 
-        -In 1950, Melbourne had a population of 4,223
-        -Throughout the 1950’s and early 1960’s, the city grew due to it’s airport and reputation for great education
-    - Event: The Founding of Brevard Engineering College 
-      year: 1958
-      description:
-        -On July 6, 1958, Jerry Keuper and Harold Dibble organized an engineer’s cotillion at the Trade Winds Hotel to rally support for the proposed College. 
-        -The Engineer’s Cotillion provided money to pay for newspaper ads and class schedules. 
-        -In 1958, 148 male students and 6 female students signed up for BEC’s first Fall term, the average age was 33.
-        -The University of Melbourne allowed BEC to use its building on Country Club Road as its college office. 
-        -Classes were Scheduled from 7 to 10 on Monday, Wednesday, and Friday Evenings in three rented class rooms at Eau Gallie Junior High School.
-        -Tuition was $35 for one course, $68 for two courses, and $98 for three courses.
-    - Event: BEC’s First Relocation
-      year: 1959
-      description:
-        -In 1959, BEC had to relocate its classes to the First Methodist Church at Waverly place. 
-        -This was due to the presence of African-American students, the Junior High would not allow BEC to host classes there anymore. 
+-1950s: 
+  - Event: First Rocket Launch
+    year: 1950
+    description: 
+      -The first rocket launch from Cape Canaveral occurred on July 24, 1950.
+      -Bumper 8 was a modified German V-2 with a WAC Corporal as its second stage.
+  - Event: Cocoa Beach Population Boom
+    year: 1950s
+    description: 
+      -At the beginning of WW2, Cocoa Beach had a year round population of 31
+      -By 1950, this population grew to 245
+      -Over the next 10 years, Brevard County had 75,000 new residents, due to the space race
+  - Event: The Launch of Sputnik
+    year: 1957
+    description:
+      -On October 4, 1957, soviet satellite “Sputnik” was launched, starting the space race. 
+  - Event: America’s First Satellite
+    year: 1958 
+    description: 
+      -Explorer I was launched on January 31, 1958
+  - Event: Melbourne Population Boom 
+    year: 1950s
+    description: 
+      -In 1950, Melbourne had a population of 4,223
+      -Throughout the 1950’s and early 1960’s, the city grew due to it’s airport and reputation for great education
+  - Event: The Founding of Brevard Engineering College 
+    year: 1958
+    description:
+      -On July 6, 1958, Jerry Keuper and Harold Dibble organized an engineer’s cotillion at the Trade Winds Hotel to rally support for the proposed College. 
+      -The Engineer’s Cotillion provided money to pay for newspaper ads and class schedules. 
+      -In 1958, 148 male students and 6 female students signed up for BEC’s first Fall term, the average age was 33.
+      -The University of Melbourne allowed BEC to use its building on Country Club Road as its college office. 
+      -Classes were Scheduled from 7 to 10 on Monday, Wednesday, and Friday Evenings in three rented class rooms at Eau Gallie Junior High School.
+      -Tuition was $35 for one course, $68 for two courses, and $98 for three courses.
+  - Event: BEC’s First Relocation
+    year: 1959
+    description:
+      -In 1959, BEC had to relocate its classes to the First Methodist Church at Waverly place. 
+      -This was due to the presence of African-American students, the Junior High would not allow BEC to host classes there anymore. 
 -1960s: 
   - Event: BEC’s Second Relocation
     year: 1960

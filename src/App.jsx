@@ -17,35 +17,45 @@ export default function App() {
    const [zoom, setZoom] = useState(14);
    const [inFloridaTech, setInFloridaTech] = useState(null);
    const [status, setStatus] = useState(null);
-   var history, val, time, item, items = [];
-   fetch(facts).then(f => f.text()).then(text =>
-      {
-         history = load(text);
-         console.log(history);
-      });
-
-   for (val in history) {
-      if (val["1950s"]) {
-         for (time in val["1950s"]) {
-            items.push ({
-               title: time.year,
-               cardTitle: time.Event,
-               cardSubtitle: time.description.split('-')[0],
-               cardDetailedText: time.description.split('-').slice(1, -1),
-            })
-         }
-      } else {
-         for (item in val) {
-            items.push({
-               title: item.year,
-               cardTitle: item.Event,
-               cardSubtitle: item.description.split('-')[0],
-               cardDetailedText: item.description.split('-').slice(1, -1),
-            })
-         }
+   
+   // HISTORY TIMELINE UI
+   var history, val, item, items = [];
+   const [app_history,setData]=useState([]);
+   // Make method
+   const getData=()=>{
+      fetch(facts).then(f => f.text()).then(text =>
+         {
+            history = load(text);
+            setData(history)
+            //console.log(history);
+            return history
+         });
+   }
+   // Get Data On Load
+   useEffect(()=>{
+      getData()
+    },[])
+   
+    //console.log(app_history)
+   for (val in app_history) {
+      // DEBUGGING
+      //console.log("val=",val)
+      //console.log(app_history[val])
+      //console.log("val=",app_history[val])
+      
+      // Loop through
+      for (item in app_history[val]) {
+         //console.log("Item = ",app_history[val][item].description.split('-'))
+         items.push({
+            title: app_history[val][item].year,
+            cardTitle: app_history[val][item].Event,
+            cardSubtitle: app_history[val][item].description.split('-')[1],
+            cardDetailedText: app_history[val][item].description.split('-').slice(2, -1),
+         })
+         //console.log(items)
       }
    }
-
+   
    // Set function and parameters for Geolocate
    const geolocate = new mapboxgl.GeolocateControl({
       positionOptions: {
