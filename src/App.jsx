@@ -128,7 +128,7 @@ export default function App() {
          setLat(map.current.getCenter().lat.toFixed(6));
          setZoom(map.current.getZoom().toFixed(2));
 
-         if ((lat > 28.04 && lat < 28.08) && (lng > -80.8 && lng < -80.4)) {
+         if ((lat > 28.057913 && lat < 28.06969) && (lng > -80.625 && lng < -80.620)) {
             setInFloridaTech("True!");
          } else {
             setInFloridaTech("False!");
@@ -150,7 +150,7 @@ export default function App() {
             setLng(position.coords.longitude);
 
             // Add Position Checking
-            if ((position.coords.latitude > 28.04 && position.coords.latitude < 28.08) && (position.coords.longitude > -80.8 && position.coords.longitude < -80.4)) {
+            if ((position.coords.latitude > 28.057913 && position.coords.latitude < 28.06969) && (position.coords.longitude > -80.620 && position.coords.longitude < -80.625)) {
                setInFloridaTech("True!");
             } else {
                setInFloridaTech("False!");
@@ -168,15 +168,15 @@ export default function App() {
             Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} | Florida Tech: {inFloridaTech}
          </div>
          <div ref={mapContainer} className="map-container"></div>
+         <div className='timeline'>
+            <Chrono items={items} allowDynamicUpdate={true} mode='HORIZONTAL'/>
+         </div>
          <div align="center" className="Get coords">
             <h1>Get Coordinates by Clicking Below</h1>
             <button onClick={getLocation}>Get Location</button>
             {status && <p>{status}</p>}
             {lat && <p>Latitude: {lat}</p>}
             {lng && <p>Longitude: {lng}</p>}
-         </div>
-         <div className='timeline'>
-            <Chrono items={items} allowDynamicUpdate={true} mode='HORIZONTAL'/>
          </div>
       </div>
    );
