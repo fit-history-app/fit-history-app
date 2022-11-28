@@ -45,7 +45,7 @@ export default function App() {
       
       // Loop through
       for (item in app_history[val]) {
-         //console.log("Item = ",app_history[val][item].description.split('-'))
+         console.log("Item = ",app_history[val][item].description.split('-'))
          items.push({
             title: app_history[val][item].year,
             cardTitle: app_history[val][item].Event,
@@ -55,7 +55,7 @@ export default function App() {
          //console.log(items)
       }
    }
-   
+   console.log(items)
    // Set function and parameters for Geolocate
    const geolocate = new mapboxgl.GeolocateControl({
       positionOptions: {
