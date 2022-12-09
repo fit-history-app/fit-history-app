@@ -50,7 +50,7 @@ export default function App() {
          });
       }
    }
-   console.log(items);
+   //console.log(items);
 
    // Set function and parameters for Geolocate
    const geolocate = new mapboxgl.GeolocateControl({
