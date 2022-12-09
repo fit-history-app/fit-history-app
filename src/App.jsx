@@ -7,18 +7,20 @@ import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-load
 mapboxgl.accessToken = 'pk.eyJ1IjoidGVlbWFuMjIiLCJhIjoiY2w5ZDcxbWh0MDM4MTN3dDl3Nnk1bmh2MyJ9.kfti7m0R9PtYzfP-c7qK2Q';
 
 export default function App() {
+   // Map Vars
    const mapContainer = useRef(null);
    const map = useRef(null);
    const [lng, setLng] = useState(-80.6239659);
    const [lat, setLat] = useState(28.0645427);
    const [zoom, setZoom] = useState(14);
-   const [inFloridaTech, setInFloridaTech] = useState(null);
+   const [inFloridaTech, setInFloridaTech] = useState(true);
 
-   // HISTORY TIMELINE UI
+   // HISTORY TIMELINE Vars
    var history, val, item, items = [];
    const [app_history,setData]=useState([]);
    
-   // Make method
+   // HISTORY TIMELINE Vars
+   // Get all data from the YAML
    const getData = () => {
       fetch(facts).then(f => f.text()).then(text =>
          {
@@ -29,17 +31,10 @@ export default function App() {
          });
    };
    
-   // Slower but only happens on first load
+   // Slower but only happens on first load (load data in)
    window.onload = getData()
 
-   // Get Data On Load (Much Faster But Everytime Map Is Touched, Reload)
-   /*
-   useEffect(()=>{
-      getData()
-    },[]);
-   */
-
-   //console.log(app_history)
+   // Parse each element
    for (val in app_history) {
       // DEBUGGING
       //console.log("val=",val)//console.log(app_history[val])//console.log("val=",app_history[val])
@@ -79,8 +74,8 @@ export default function App() {
    useEffect(() => {
       if (!map.current) return; // wait for map to initialize
       map.current.on('move', () => {
-         setLng(map.current.getCenter().lng.toFixed(8));
-         setLat(map.current.getCenter().lat.toFixed(8));
+         setLng(map.current.getCenter().lng.toFixed(6));
+         setLat(map.current.getCenter().lat.toFixed(6));
          setZoom(map.current.getZoom().toFixed(2));
 
          if ((lat > 28.057913 && lat < 28.06969) && (lng > -80.625 && lng < -80.620)) {
