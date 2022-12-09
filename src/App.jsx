@@ -13,7 +13,7 @@ export default function App() {
    const [lng, setLng] = useState(-80.6239659);
    const [lat, setLat] = useState(28.0645427);
    const [zoom, setZoom] = useState(14);
-   const [inFloridaTech, setInFloridaTech] = useState(true);
+   const [inFloridaTech, setInFloridaTech] = useState("True!");
 
    // HISTORY TIMELINE Vars
    var history, val, item, items = [];
