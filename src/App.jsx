@@ -26,13 +26,16 @@ export default function App() {
          {
             history = load(text);
             setData(history)
-            //console.log(history);
+            console.log(history);
             return history
          });
    };
    
-   // Slower but only happens on first load (load data in)
-   window.onload = getData()
+   // Load in timeline data
+   useEffect(
+      getData, // <- function that will run on every dependency update
+      []       // <-- empty dependency array
+   ); 
 
    // Parse each element
    for (val in app_history) {
