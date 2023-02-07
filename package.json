@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:digitalOcean": "npm i @mapbox/mapbox-gl-directions --legacy-peer-deps"
+    "build:digitalOcean": "npm install --legacy-peer-deps & react-scripts build"
   },
   "eslintConfig": {
     "extends": [
