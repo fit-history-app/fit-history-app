@@ -3,6 +3,8 @@ import { Chrono } from 'react-chrono';
 import { load } from 'js-yaml';
 import facts from './history.yaml';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import Directions from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
+
 
 mapboxgl.accessToken = 'pk.eyJ1IjoidGVlbWFuMjIiLCJhIjoiY2w5ZDcxbWh0MDM4MTN3dDl3Nnk1bmh2MyJ9.kfti7m0R9PtYzfP-c7qK2Q';
 
@@ -63,6 +65,12 @@ export default function App() {
       trackUserLocation: true
    });
 
+   var directions = new Directions({
+      accessToken: 'pk.eyJ1IjoidGVlbWFuMjIiLCJhIjoiY2w5ZDcxbWh0MDM4MTN3dDl3Nnk1bmh2MyJ9.kfti7m0R9PtYzfP-c7qK2Q',
+      unit: 'metric',
+      profile: 'mapbox/cycling'
+    });
+
    useEffect(() => {
       if (map.current) return; // initialize map only once
       map.current = new mapboxgl.Map({
@@ -72,6 +80,7 @@ export default function App() {
          zoom: zoom
       });
       map.current.addControl(geolocate); // Add Geolocate button
+      map.current.addControl(directions); // Add directions
    });
 
    useEffect(() => {
