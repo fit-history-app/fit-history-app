@@ -66,12 +66,29 @@ export default function App() {
       trackUserLocation: true
    });
 
+   // Set function for directions
+   // API lives here: https://github.com/mapbox/mapbox-gl-directions/blob/master/API.md
    var directions = new Directions({
       accessToken: 'pk.eyJ1IjoidGVlbWFuMjIiLCJhIjoiY2w5ZDcxbWh0MDM4MTN3dDl3Nnk1bmh2MyJ9.kfti7m0R9PtYzfP-c7qK2Q',
       unit: 'imperial',
-      profile: 'mapbox/walking'
-    });
+      profile: 'mapbox/walking',
+      interactive: true // switch to false for no clicking
+   });
 
+   // Directional routing?
+   /*
+   map.on('load', function() {
+      directions.setOrigin([-117.1425, 32.63638889]);
+      directions.addWaypoint(0, [-117.1425, 32.63638889]);
+      directions.addWaypoint(1, [-117.195, 32.75416667]);
+      directions.addWaypoint(2, [-116.5616667, 32.93583333]);
+      directions.setDestination([-116.5616667, 32.93583333]);
+   });
+   */
+
+
+
+   // Initialize map
    useEffect(() => {
       if (map.current) return; // initialize map only once
       map.current = new mapboxgl.Map({
@@ -84,6 +101,7 @@ export default function App() {
       map.current.addControl(directions, 'top-left'); // Add directions
    });
 
+   // Update users current lat and lng
    useEffect(() => {
       if (!map.current) return; // wait for map to initialize
       map.current.on('move', () => {
