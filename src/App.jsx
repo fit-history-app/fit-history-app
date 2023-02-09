@@ -76,19 +76,6 @@ export default function App() {
       interactive: true // switch to false for no clicking
    });
 
-   // Directional routing?
-   /*
-   map.on('load', function() {
-      directions.setOrigin([-117.1425, 32.63638889]);
-      directions.addWaypoint(0, [-117.1425, 32.63638889]);
-      directions.addWaypoint(1, [-117.195, 32.75416667]);
-      directions.addWaypoint(2, [-116.5616667, 32.93583333]);
-      directions.setDestination([-116.5616667, 32.93583333]);
-   });
-   */
-
-
-
    // Initialize map
    useEffect(() => {
       if (map.current) return; // initialize map only once
@@ -136,6 +123,17 @@ export default function App() {
          });
       });
    
+
+      // Working Directional Implementations
+      /* 
+      map.current.on('load', function() {
+         directions.setOrigin([-117.1425, 32.63638889]);
+         directions.addWaypoint(0, [-117.1425, 32.63638889]);
+         directions.addWaypoint(1, [-117.195, 32.75416667]);
+         directions.addWaypoint(2, [-116.5616667, 32.93583333]);
+         directions.setDestination([-116.5616667, 32.93583333]);
+      });
+      */
    });
 
    
