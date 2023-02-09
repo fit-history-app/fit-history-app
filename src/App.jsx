@@ -2,6 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import { Chrono } from 'react-chrono';
 import { load } from 'js-yaml';
 import facts from './history.yaml';
+import poiwaypoints from './poi_waypoints.json';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import Directions from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
 import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css'
@@ -99,7 +100,46 @@ export default function App() {
       });
       map.current.addControl(geolocate); // Add Geolocate button
       map.current.addControl(directions, 'top-left'); // Add directions
+
+      // Add Location Waypoints Layer
+
+      map.current.on("load", function () {
+         // Add an image to use as a custom marker
+         map.current.loadImage(
+         "https://cdn4.iconfinder.com/data/icons/geo-points-1/154/star-geo-point-location-gps-place-512.png",
+         function (error, image) {
+            if (error) throw error;
+            map.current.addImage("custom-marker", image);
+            // Add a GeoJSON source with multiple points
+            map.current.addSource("points", {
+               type: "geojson",
+               data: {
+               type: "FeatureCollection",
+               features: poiwaypoints.locations,
+               },
+            });
+            // Add a symbol layer
+            map.current.addLayer({
+               id: "points",
+               type: "symbol",
+               source: "points",
+               layout: {
+               "icon-image": "custom-marker",
+               "icon-size": 0.08,
+               // get the title name from the source's "title" property
+               "text-field": ["get", "title"],
+               "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+               "text-offset": [0, 1.25],
+               "text-anchor": "top",
+               },
+            });
+         });
+      });
+   
    });
+
+   
+    
 
    // Update users current lat and lng
    useEffect(() => {

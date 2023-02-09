@@ -1,0 +1,182 @@
+{
+   "locations": [
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Crawford Building",
+         "description": "A northside park that is home to the Lincoln Park Zoo"
+       },
+       "geometry": {
+         "coordinates": [-80.62385,28.06451],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Miller Building",
+         "description": "A lakefront park on Chicago's south side"
+       },
+       "geometry": {
+         "coordinates": [-80.62438,28.06576],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Denius Student Center",
+         "description": "A downtown park known for its art installations and unique architecture"
+       },
+       "geometry": {
+         "coordinates": [-80.62385,28.06649],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Evans Library",
+         "description": "A downtown park that is the site of many of Chicago's favorite festivals and events"
+       },
+       "geometry": {
+         "coordinates": [-80.62299,28.06568],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Keuper Administration Building",
+         "description": "A large park on Chicago's northwest side"
+       },
+       "geometry": {
+         "coordinates": [-80.62446,28.06635],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Florida Institute of Technology Botanical Garden",
+         "description": "A large park near in Chicago's North Lawndale neighborhood"
+       },
+       "geometry": {
+         "coordinates": [-80.62290,28.06692],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Ruth Funk Esports Center",
+         "description": "A park on the Illinois-Indiana border featuring a historic fieldhouse"
+       },
+       "geometry": {
+         "coordinates": [-80.62307,28.06608],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Link Building",
+         "description": "A lakeside park that was the site of the 1893 World's Fair"
+       },
+       "geometry": {
+         "coordinates": [-80.62314,28.06527],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Gleason Performing Arts Building",
+         "description": "A large park in Chicago's Austin neighborhood"
+       },
+       "geometry": {
+         "coordinates": [-80.62328,28.06473],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Columbia Village",
+         "description": ""
+       },
+       "geometry": {
+         "coordinates": [-80.62312,28.06919],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Residence Quad",
+         "description": ""
+       },
+       "geometry": {
+         "coordinates": [-80.62395,28.06762],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Panthereum",
+         "description": ""
+       },
+       "geometry": {
+         "coordinates": [-80.62414,28.06684],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Florida Institute of Technology Work Building",
+         "description": ""
+       },
+       "geometry": {
+         "coordinates": [-80.62455,28.06512],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Skurla Hall",
+         "description": ""
+       },
+       "geometry": {
+         "coordinates": [-80.62448,28.06453],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Clemente Center",
+         "description": ""
+       },
+       "geometry": {
+         "coordinates": [-80.62289,28.06324],
+         "type": "Point"
+       }
+     },
+     {
+       "type": "Feature",
+       "properties": {
+         "title": "Panther Dining Hall",
+         "description": ""
+       },
+       "geometry": {
+         "coordinates": [-80.62288,28.06257],
+         "type": "Point"
+       }
+     }
+   ],
+   "type": "FeatureCollection"
+ }
+ 
