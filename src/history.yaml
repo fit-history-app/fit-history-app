@@ -206,8 +206,8 @@
     description: 
       -Even in 1971, parking on campus was already a problem.
   - Event: Campus Ministry
-   year: 1971
-   description:
+    year: 1971
+    description:
      -In 1971, the campus Ministry opened up.
      -In 1974, the ministry was expanded to include a counseling center.
      -In the 1980s the School of Psychology assumed responsibility for the counseling center.
@@ -273,7 +273,7 @@
       -In 1981, construction began on the Shepard Seminar Building.
       -The building was named in honor of Donald and Helen Shepard, trustees and founders of the Empire tool company.
       -The shepard building houses the science education department.
-   - Event: Construction of the Evans Library
+  - Event: Construction of the Evans Library
     year: 1983 
     description: 
       -In May 1983, construction started on a new university library. 
