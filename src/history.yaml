@@ -118,11 +118,11 @@
       -In 1966, the board of Trustees decided to change the school’s name to Florida Institute of Technology.
       -In June 1966, Tom Adms granted BEC exclusive use of the name, Florida Institute of Technology.
       -BEC officially became FIT in August of 1966.
- - Event: The launch of the Oceanography program
+  - Event: The launch of the Oceanography program
     year: 1966
     description: 
       -Oceanography was launched in 1966, and Ocean engineering was launched in 1972. 
- - Event: The Crawford Building
+  - Event: The Crawford Building
     year: 1968 
     description: 
       -Construction on the Crawford Science building began in December 1968.
@@ -180,13 +180,13 @@
       -In February 1972, WFIT received its FCC license, but didn’t go on the air until March 1975.
       -During the 1980s, the staton won national recognition for its alternative programming. 
 -1970s: 
- - Event: The Atomic Toilet
+  - Event: The Atomic Toilet
     year: 1970
     description: 
       -Woodbridge attempted to purify water using radioactive cobalt-60. 
       -The tests were carried out next to the crawford building in an underground facility. 
       -Students named the facility, the “atomic toilet”
- - Event: “Florida Tech” before it was cool
+  - Event: “Florida Tech” before it was cool
     year: 1970 
     description: 
       -In 1970, Basketball coach Leonard Yandle told reporters he wanted his team to be called “Florida Tech” due to “Florida Tech” being printed on the side of the new uniforms.
@@ -196,27 +196,32 @@
     description: 
       -In 1970, the Melbourne schoolhouse (built in 1883), found a new home at the edge of the college’s botanical garden in 1970. 
       -The schoolhouse sits at 9 by 12 feet and the first class of students consisted of both African-American students and White students, though they had separate sessions. 
+  - Event: Temporary Classrooms
+    year: 1970
+    description:
+     -Due to the influx of student’s enrolling in the 1970s, FIT was forced to create temporary classrooms behind the gymnasium.
+     -These were later removed in 1999, when the Charles and Ruth Clemente Center for Sports and Recreation was being planned.
   - Event: Parking Problem
     year: 1971
     description: 
       -Even in 1971, parking on campus was already a problem.
- - Event: Campus Ministry
+  - Event: Campus Ministry
    year: 1971
    description:
      -In 1971, the campus Ministry opened up.
      -In 1974, the ministry was expanded to include a counseling center.
      -In the 1980s the School of Psychology assumed responsibility for the counseling center.
      -In 1994, the All-faiths center and United campus ministry at the south end of campus.
- - Event: The Purchase of Southgate
+  - Event: The Purchase of Southgate
     year: 1974
     description: 
       -In 1974, City officials in Indialantic blocked the continued use of the Trade Winds as a dorm for FIT.
       -In response, FIT purchased the Southgate Apartment complex to serve both as admin offices for the School of Aeronautics and student housing. 
-   - Event: Campus Dining
+  - Event: Campus Dining
     year: 1970s 
     description: 
       -Until 1973, the SUB cafeteria, located in the Denius student center, served as the school’s main dining facility. This changed when a new cafeteria was opened in Evans Hall, the Rathskeller. 
-   - Event: No more dress code, no more clothes
+  - Event: No more dress code, no more clothes
     year: 1974
     description: 
       -In March 1974, FIT’s students demonstrated that the college’s stringent dress code was a thing of the past.
@@ -247,32 +252,27 @@
     description: 
       -In 1979, construction began on a $1.7 million expansion on the Southgate Apartments. 
       -The expansion was completed in time for the beginning of classes in September 1979. 
-  - Event: Temporary Classrooms
-    year: 1970s
-    description: 
-      -Due to the influx of student’s enrolling in the 1970s, FIT was forced to create temporary classrooms behind the gymnasium.
-      -These were later removed in 1999, when the Charles and Ruth Clemente Center for Sports and Recreation was being planned. 
 -1980s:
-   - Event: Academic Reorganization
+  - Event: Academic Reorganization
     year: 1980
     description: 
       -In January 1980, John Miller ordered a major academic reorganization.
       -2 new schools were created
       -The School of Psychology
       -The School of Management and Humanities
-   - Event: Academic Computer Center
-     year: 1980
-     description:
-       -In 1966, Florida Tech offered its first degree in Computer Science.
-       -In 1980, Dee Dee Pannell served as director of the Academic Computer Center located in the Quad.
-       -At the time it was a state of the art lab constitution of 15 terminals.
-       -The center was open from 8 a.m. to 10 p.m.
-   - Event: Shepard Building
-     year: 1981
-     description:
-       -In 1981, construction began on the Shepard Seminar Building.
-       -The building was named in honor of Donald and Helen Shepard, trustees and founders of the Empire tool company.
-       -The shepard building houses the science education department.
+  - Event: Academic Computer Center
+    year: 1980
+    description:
+      -In 1966, Florida Tech offered its first degree in Computer Science.
+      -In 1980, Dee Dee Pannell served as director of the Academic Computer Center located in the Quad.
+      -At the time it was a state of the art lab constitution of 15 terminals.
+      -The center was open from 8 a.m. to 10 p.m.
+  - Event: Shepard Building
+    year: 1981
+    description:
+      -In 1981, construction began on the Shepard Seminar Building.
+      -The building was named in honor of Donald and Helen Shepard, trustees and founders of the Empire tool company.
+      -The shepard building houses the science education department.
    - Event: Construction of the Evans Library
     year: 1983 
     description: 
@@ -303,7 +303,7 @@
     year: 1990
     description: 
       -The school of Management was renamed the school of business in 1990.
- - Event: Skurla
+  - Event: Skurla
     year: 1991
     description: 
       -The Skurla Airway Sciences Building was dedicated in 1991 in honor of George Skurla, university trustee and retired CEO of the Grumman Corporation.
@@ -313,12 +313,12 @@
     description: 
       -Tim Wakefield, a baseball player for FIT from 1986 to 1988, went on to play for the Pittsburgh Pirates and the Boston Red Sox.
       -In 1992, Wakefield was named National League Rookie Pitcher of the Year.
-- Event: The Olin Foundation
+  - Event: The Olin Foundation
     year: 1997
     description: 
       -In 1997, the F.W. Olin Foundation awarded the university a $50-million grant. 
       -$21 million of the grant was used for construction of the F.W. Olin Engineering Complex, and the F.W. Olin Life Sciences Building. 
- - Event: The Columbia Shuttle Disaster
+  - Event: The Columbia Shuttle Disaster
     year: 1998
     description: 
       -Mission specialist Kathryn Hire, Florida Tech’s first astronaut, was one of the crew aboard the Space Shuttle Columbia, which lifted off from Launch Pad 39B on April 17, 1998. 
