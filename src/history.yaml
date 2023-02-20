@@ -1,5 +1,10 @@
 ---
--1950s: 
+-1950s:
+  - Event: Melbourne Population Boom
+    year: 1950
+    description:
+      -In 1950, Melbourne had a population of 4,223
+      -Throughout the 1950’s and early 1960’s, the city grew due to it’s airport and reputation for great education
   - Event: First Rocket Launch
     year: 1950
     description: 
@@ -19,11 +24,6 @@
     year: 1958 
     description: 
       -Explorer I was launched on January 31, 1958
-  - Event: Melbourne Population Boom 
-    year: 1950s
-    description: 
-      -In 1950, Melbourne had a population of 4,223
-      -Throughout the 1950’s and early 1960’s, the city grew due to it’s airport and reputation for great education
   - Event: The Founding of Brevard Engineering College 
     year: 1958
     description:
@@ -44,7 +44,13 @@
     description: 
       -In 1960, BEC moved to its third home at Radiations Inc. ‘s Building NO. 1, adjacent to Melbourne’s airport.
       -Radiation Inc. now known as Harris Corporation (Now in 2022, known as L3Harris), founded by Homer Denius and George Shaw. 
-      -Shaw was a BEC trustee, and Denius was committed to the University, promising to donate 1,000 shares of Radiation stock to the school if it could not find a permanent home in Melbourne. 
+      -Shaw was a BEC trustee, and Denius was committed to the University, promising to donate 1,000 shares of Radiation stock to the school if it could not find a permanent home in Melbourne.
+  - Event: The Dent Smith Trail
+    year: 1960
+    description:
+      -In the 1960s, the Dent Smith trail was created with the “Under the Palms” theme, consisting of a collection of many rare palms.
+      -Dent Smith was a retired Wall Street Executive and also an avid collector of rare palms
+      -The Dent Smith trail is one of the largest collections of exotic palm trees in the continental United States.
   - Event: School-Spirit Committee
     year: 1960
     description: 
@@ -129,7 +135,7 @@
       -Keuper used his Republican friends at the convention to rally support for FIT.
       -Keupers persuasion led to New York’s governor, Nelson Rockefeller to donate his yacht, the Dragon Lady.
   - Event: Dress Code
-    year: 1960s 
+    year: 1968
     description: 
       -FIT Admins required students to follow a dress code.
       -The 1968 student handbook explained “College dress is a matter of good taste… Shorts, slacks, and pedal pushers are inappropriate for campus wear…Male students should shave daily…Beards and ‘beatnik’ hairdos are not acceptable at FIT.”
@@ -152,13 +158,7 @@
       -In 1972, HTI was reorganized at the School of Marine and Environmental Technology (SOMET) and relocated to Jensen Beach. 
       -In 1982, nearly 7,000 students were enrolled in Florida Institute of Technology. The Majority of the Jensen Beach students were enrolled in two-year specialized programs.
       -Jensen Beach served as the home port for the School of Marine and Environmental Technology.
-      -Declining student enrollments at Jensen Beach and a growing budget deficit led to the decision to close the Jensen Beach campus in 1986. 
-  - Event: The Dent Smith Trail
-    year: 1960s 
-    description: 
-      -In the 1960s, the Dent Smith trail was created with the “Under the Palms” theme, consisting of a collection of many rare palms.
-      -Dent Smith was a retired Wall Street Executive and also an avid collector of rare palms
-      -The Dent Smith trail is one of the largest collections of exotic palm trees in the continental United States.
+      -Declining student enrollments at Jensen Beach and a growing budget deficit led to the decision to close the Jensen Beach campus in 1986.
   - Event: End of the Space Race
     year: 1969
     description: 
