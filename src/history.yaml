@@ -6,7 +6,7 @@
       -The first rocket launch from Cape Canaveral occurred on July 24, 1950.
       -Bumper 8 was a modified German V-2 with a WAC Corporal as its second stage.
   - Event: Cocoa Beach Population Boom
-    year: 1950s
+    year: 1950
     description: 
       -At the beginning of WW2, Cocoa Beach had a year round population of 31
       -By 1950, this population grew to 245
@@ -111,28 +111,18 @@
     description: 
       -In 1966, the board of Trustees decided to change the school’s name to Florida Institute of Technology.
       -In June 1966, Tom Adms granted BEC exclusive use of the name, Florida Institute of Technology.
-      -BEC officially became FIT in August of 1966. 
-  - Event: End of the Space Race
-    year: 1969
+      -BEC officially became FIT in August of 1966.
+ - Event: The launch of the Oceanography program
+    year: 1966
     description: 
-      -With the successful launch of the Apollo 11 rocket, NASA’s budget started to become cut over the next several years, due to the space race effectively ending.
-      -With the space race ending and the Vietnam war heating up, national focus shifted away from space technology and towards other fields of science, technology and academics.
-  - Event: Construction Boom
-    year: 1960s
-    description: 
-      -In the late 1960s, many new dorms, classrooms, labs, auditoriums, and arenas were added to the campus.
-      -In May 1966, construction for the Gleason Auditorium began, named after W. Lansing Gleason. The project was completed in October, 1967.
-      -Consisting of 510 seats, the auditorium cost $310,000
-      -In August of 1967, the Denius student center began construction and cost $500,000. Construction lasted until 1968 where it was opened and became the focus of student activities. 
-      -In July of 1968, a $130,000 gym began construction, leading to intercollegiate athletic programs in crew, volleyball, soccer, and golf. In 1986, the gym was named in honor of Percy Hedgecock, a trustee and founder of Satellite beach.
-      -In February 2000, in place of the Hedgecock Gym, the $6.6 million Charles and Ruth Clemente Recreation Center began construction. 
-  - Event: The Crawford Building
+      -Oceanography was launched in 1966, and Ocean engineering was launched in 1972. 
+ - Event: The Crawford Building
     year: 1968 
     description: 
       -Construction on the Crawford Science building began in December 1968.
       -Named after Fred Crawford, the building cost $1,250,000.
       -The building was completed in 1970.
-  - Event: RNC
+ - Event: RNC
     year: 1968
     description: 
       -In 1968, the Republican Party held its national convention in Miami. 
@@ -169,11 +159,20 @@
       -In the 1960s, the Dent Smith trail was created with the “Under the Palms” theme, consisting of a collection of many rare palms.
       -Dent Smith was a retired Wall Street Executive and also an avid collector of rare palms
       -The Dent Smith trail is one of the largest collections of exotic palm trees in the continental United States.
-
-  - Event: The launch of the Oceanography program
-    year: 1966
+  - Event: End of the Space Race
+    year: 1969
     description: 
-      -Oceanography was launched in 1966, and Ocean engineering was launched in 1972.
+      -With the successful launch of the Apollo 11 rocket, NASA’s budget started to become cut over the next several years, due to the space race effectively ending.
+      -With the space race ending and the Vietnam war heating up, national focus shifted away from space technology and towards other fields of science, technology and academics.
+  - Event: Construction Boom
+    year: 1960s
+    description: 
+      -In the late 1960s, many new dorms, classrooms, labs, auditoriums, and arenas were added to the campus.
+      -In May 1966, construction for the Gleason Auditorium began, named after W. Lansing Gleason. The project was completed in October, 1967.
+      -Consisting of 510 seats, the auditorium cost $310,000
+      -In August of 1967, the Denius student center began construction and cost $500,000. Construction lasted until 1968 where it was opened and became the focus of student activities. 
+      -In July of 1968, a $130,000 gym began construction, leading to intercollegiate athletic programs in crew, volleyball, soccer, and golf. In 1986, the gym was named in honor of Percy Hedgecock, a trustee and founder of Satellite beach.
+      -In February 2000, in place of the Hedgecock Gym, the $6.6 million Charles and Ruth Clemente Recreation Center began construction. 
   - Event: The creation of WFIT
     year: 1969
     description: 
@@ -181,6 +180,17 @@
       -In February 1972, WFIT received its FCC license, but didn’t go on the air until March 1975.
       -During the 1980s, the staton won national recognition for its alternative programming. 
 -1970s: 
+ - Event: The Atomic Toilet
+    year: 1970
+    description: 
+      -Woodbridge attempted to purify water using radioactive cobalt-60. 
+      -The tests were carried out next to the crawford building in an underground facility. 
+      -Students named the facility, the “atomic toilet”
+ - Event: “Florida Tech” before it was cool
+    year: 1970 
+    description: 
+      -In 1970, Basketball coach Leonard Yandle told reporters he wanted his team to be called “Florida Tech” due to “Florida Tech” being printed on the side of the new uniforms.
+      -It wouldn’t be until much later in 2020, that FIT embraced being called “Florida Tech”
   - Event: The Melbourne Schoolhouse
     year: 1970
     description: 
@@ -189,28 +199,24 @@
   - Event: Parking Problem
     year: 1971
     description: 
-      -Even in 1971, parking on campus was already a problem.  
-  - Event: The Purchase of Southgate
+      -Even in 1971, parking on campus was already a problem.
+ - Event: Campus Ministry
+   year: 1971
+   description:
+     -In 1971, the campus Ministry opened up.
+     -In 1974, the ministry was expanded to include a counseling center.
+     -In the 1980s the School of Psychology assumed responsibility for the counseling center.
+     -In 1994, the All-faiths center and United campus ministry at the south end of campus.
+ - Event: The Purchase of Southgate
     year: 1974
     description: 
       -In 1974, City officials in Indialantic blocked the continued use of the Trade Winds as a dorm for FIT.
       -In response, FIT purchased the Southgate Apartment complex to serve both as admin offices for the School of Aeronautics and student housing. 
-  - Event: The Atomic Toilet
-    year: 1970
-    description: 
-      -Woodbridge attempted to purify water using radioactive cobalt-60. 
-      -The tests were carried out next to the crawford building in an underground facility. 
-      -Students named the facility, the “atomic toilet”
-  - Event: Campus Dining
+   - Event: Campus Dining
     year: 1970s 
     description: 
       -Until 1973, the SUB cafeteria, located in the Denius student center, served as the school’s main dining facility. This changed when a new cafeteria was opened in Evans Hall, the Rathskeller. 
-  - Event: “Florida Tech” before it was cool
-    year: 1970 
-    description: 
-      -In 1970, Basketball coach Leonard Yandle told reporters he wanted his team to be called “Florida Tech” due to “Florida Tech” being printed on the side of the new uniforms.
-      -It wouldn’t be until much later in 2020, that FIT embraced being called “Florida Tech”
-  - Event: No more dress code, no more clothes
+   - Event: No more dress code, no more clothes
     year: 1974
     description: 
       -In March 1974, FIT’s students demonstrated that the college’s stringent dress code was a thing of the past.
@@ -246,42 +252,35 @@
     description: 
       -Due to the influx of student’s enrolling in the 1970s, FIT was forced to create temporary classrooms behind the gymnasium.
       -These were later removed in 1999, when the Charles and Ruth Clemente Center for Sports and Recreation was being planned. 
-  - Event: Campus Ministry
-    year: 1971
-    description: 
-      -In 1971, the campus Ministry opened up.
-      -In 1974, the ministry was expanded to include a counseling center.
-      -In the 1980s the School of Psychology assumed responsibility for the counseling center.
-      -In 1994, the All-faiths center and United campus ministry at the south end of campus. 
--1980s: 
-  - Event: Shepard Building
-    year: 1981
-    description: 
-      -In 1981, construction began on the Shepard Seminar Building.
-      -The building was named in honor of Donald and Helen Shepard, trustees and founders of the Empire tool company. 
-      -The shepard building houses the science education department. 
-  - Event: Academic Reorganization
+-1980s:
+   - Event: Academic Reorganization
     year: 1980
     description: 
       -In January 1980, John Miller ordered a major academic reorganization.
       -2 new schools were created
       -The School of Psychology
       -The School of Management and Humanities
-  - Event: Construction of the Evans Library
+   - Event: Academic Computer Center
+     year: 1980
+     description:
+       -In 1966, Florida Tech offered its first degree in Computer Science.
+       -In 1980, Dee Dee Pannell served as director of the Academic Computer Center located in the Quad.
+       -At the time it was a state of the art lab constitution of 15 terminals.
+       -The center was open from 8 a.m. to 10 p.m.
+   - Event: Shepard Building
+     year: 1981
+     description:
+       -In 1981, construction began on the Shepard Seminar Building.
+       -The building was named in honor of Donald and Helen Shepard, trustees and founders of the Empire tool company.
+       -The shepard building houses the science education department.
+   - Event: Construction of the Evans Library
     year: 1983 
     description: 
       -In May 1983, construction started on a new university library. 
       -The project cost $4 million. 
       -The Library was named in honor of John Evan’s mother and wife.
       -John Evans was a Florida citrus grower and cattleman who offered his extensive property holdings on New Haven Avenue. 
-      -Mr. Evans property was purchased by the DeBartolo corporation and was used to build the Melbourne Square Mall. 
-  - Event: Academic Computer Center
-    year: 1980
-    description: 
-      -In 1966, Florida Tech offered its first degree in Computer Science.
-      -In 1980, Dee Dee Pannell served as director of the Academic Computer Center located in the Quad. 
-      -At the time it was a state of the art lab constitution of 15 terminals. 
-      -The center was open from 8 a.m. to 10 p.m.
+      -Mr. Evans property was purchased by the DeBartolo corporation and was used to build the Melbourne Square Mall.
   - Event: The Retirement of Dr. Keuper
     year: 1986
     description: 
@@ -300,31 +299,31 @@
       -In 1988, to combat a shortage of laboratory space,  the university purchased an off-campus facility.
       -The ARL also served as home for Florida Tech’s Office of External Affairs.
 -1990s:
-  - Event: The Columbia Shuttle Disaster
-    year: 1998
-    description: 
-      -Mission specialist Kathryn Hire, Florida Tech’s first astronaut, was one of the crew aboard the Space Shuttle Columbia, which lifted off from Launch Pad 39B on April 17, 1998. 
-      -The shuttle exploded, killing all members aboard.
-      -Columbia Village’s halls are named after the members that lost their life during this incident. 
-  - Event: Skurla
-    year: 1991
-    description: 
-      -The Skurla Airway Sciences Building was dedicated in 1991 in honor of George Skurla, university trustee and retired CEO of the Grumman Corporation.
-      -Provided needed classroom and laboratory space for the School of Aeronautics.
   - Event: School of Management named School of Business
     year: 1990
     description: 
       -The school of Management was renamed the school of business in 1990.
-  - Event: The Olin Foundation
-    year: 1997
+ - Event: Skurla
+    year: 1991
     description: 
-      -In 1997, the F.W. Olin Foundation awarded the university a $50-million grant. 
-      -$21 million of the grant was used for construction of the F.W. Olin Engineering Complex, and the F.W. Olin Life Sciences Building. 
+      -The Skurla Airway Sciences Building was dedicated in 1991 in honor of George Skurla, university trustee and retired CEO of the Grumman Corporation.
+      -Provided needed classroom and laboratory space for the School of Aeronautics.
   - Event: Tim Wakefield
     year: 1992
     description: 
       -Tim Wakefield, a baseball player for FIT from 1986 to 1988, went on to play for the Pittsburgh Pirates and the Boston Red Sox.
       -In 1992, Wakefield was named National League Rookie Pitcher of the Year.
+- Event: The Olin Foundation
+    year: 1997
+    description: 
+      -In 1997, the F.W. Olin Foundation awarded the university a $50-million grant. 
+      -$21 million of the grant was used for construction of the F.W. Olin Engineering Complex, and the F.W. Olin Life Sciences Building. 
+ - Event: The Columbia Shuttle Disaster
+    year: 1998
+    description: 
+      -Mission specialist Kathryn Hire, Florida Tech’s first astronaut, was one of the crew aboard the Space Shuttle Columbia, which lifted off from Launch Pad 39B on April 17, 1998. 
+      -The shuttle exploded, killing all members aboard.
+      -Columbia Village’s halls are named after the members that lost their life during this incident. 
   - Event: Clemente Center
     year: 1999
     description: 
