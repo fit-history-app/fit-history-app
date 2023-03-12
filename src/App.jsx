@@ -127,22 +127,8 @@ export default function App() {
             });
          });
       });
-   
 
-      // Working Directional Implementations
-      map.current.on('load', function() {
-         directions.setOrigin([-80.62378, 28.06574]);                          // Middle of Academic Quad
-         directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
-         directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]);    // Shaw Hall
-         directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]);    // Rat
-         directions.addWaypoint(3, [-80.62324, 28.06702]);                     // Middle of Botans Patch with Hut
-         directions.addWaypoint(4, [-80.62295, 28.06574]);                     // Library
-         directions.addWaypoint(5, [-80.6230357600855, 28.0645758007761]);    // Gleason
-         directions.addWaypoint(6, [-80.62292, 28.06279]);                     // Panther Statue
-         directions.addWaypoint(7, [-80.62430, 28.06280]);                     // Center of Olin Quad
-         directions.setDestination([-80.6245510687411, 28.0644945875813]);    // Skurla
-      });
-
+      map.current.on('load', function() {});
    });
 
 
@@ -166,6 +152,52 @@ export default function App() {
       });
    });
 
+   function load_tour1() {
+      // Remove 0th waypoint for each waypoint
+      let direction_len = directions.getWaypoints().length
+      for(let i = 0; i < direction_len; i++) {
+         directions.removeWaypoint(0)
+      }
+      
+      directions.setOrigin([-80.62378, 28.06574]);                          // Middle of Academic Quad
+      directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
+      directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]);    // Shaw Hall
+      directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]);    // Rat
+      directions.addWaypoint(3, [-80.62324, 28.06702]);                     // Middle of Botans Patch with Hut
+      directions.addWaypoint(4, [-80.62295, 28.06574]);                     // Library
+      directions.addWaypoint(5, [-80.6230357600855, 28.0645758007761]);    // Gleason
+      directions.addWaypoint(6, [-80.62292, 28.06279]);                     // Panther Statue
+      directions.addWaypoint(7, [-80.62430, 28.06280]);                     // Center of Olin Quad
+      directions.setDestination([-80.6245510687411, 28.0644945875813]);    // Skurla
+  }
+
+  function load_tour2() {
+      // Remove 0th waypoint for each waypoint
+      let direction_len = directions.getWaypoints().length
+      for(let i = 0; i < direction_len; i++) {
+         directions.removeWaypoint(0)
+      }
+
+      directions.setOrigin([-80.62378, 28.06574]);                          // Middle of Academic Quad
+      directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
+      directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]);    // Shaw Hall
+      directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]);    // Rat
+      directions.setDestination([-80.6245510687411, 28.0644945875813]);    // Skurla
+   }
+
+   function load_tour3() {
+      // Remove 0th waypoint for each waypoint
+      let direction_len = directions.getWaypoints().length
+      for(let i = 0; i < direction_len; i++) {
+         directions.removeWaypoint(0)
+      }
+
+      directions.setOrigin([-80.62292, 28.06279]);     
+      directions.setDestination([-80.62430, 28.06280]); 
+   }
+
+
+
    return (
       <div>
          <div className="map-sidebar">
@@ -180,6 +212,12 @@ export default function App() {
          <div align="center" className="latlong_display">
             {lat && <p>Latitude: {lat}</p>}
             {lng && <p>Longitude: {lng}</p>}
+         </div>
+
+         <div align="center">
+            <button onClick={load_tour1}>Load Tour #1</button>
+            <button onClick={load_tour2}>Load Tour #2</button>
+            <button onClick={load_tour3}>Load Tour #3</button>
          </div>
       </div>
    );
