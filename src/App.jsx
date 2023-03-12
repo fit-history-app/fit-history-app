@@ -73,6 +73,11 @@ export default function App() {
       accessToken: 'pk.eyJ1IjoidGVlbWFuMjIiLCJhIjoiY2w5ZDcxbWh0MDM4MTN3dDl3Nnk1bmh2MyJ9.kfti7m0R9PtYzfP-c7qK2Q',
       unit: 'imperial',
       profile: 'mapbox/walking',
+      alternatives: false,
+      controls: {
+         inputs: false,
+         profileSwitcher: false
+      },   
       interactive: true // switch to false for no clicking
    });
 
@@ -125,18 +130,23 @@ export default function App() {
    
 
       // Working Directional Implementations
-      /* 
       map.current.on('load', function() {
-         directions.setOrigin([-117.1425, 32.63638889]);
-         directions.addWaypoint(0, [-117.1425, 32.63638889]);
-         directions.addWaypoint(1, [-117.195, 32.75416667]);
-         directions.addWaypoint(2, [-116.5616667, 32.93583333]);
-         directions.setDestination([-116.5616667, 32.93583333]);
+         directions.setOrigin([-80.62378, 28.06574]);                          // Middle of Academic Quad
+         directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
+         directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]);    // Shaw Hall
+         directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]);    // Rat
+         directions.addWaypoint(3, [-80.62324, 28.06702]);                     // Middle of Botans Patch with Hut
+         directions.addWaypoint(4, [-80.62295, 28.06574]);                     // Library
+         directions.addWaypoint(5, [-80.6230357600855, 28.0645758007761]);    // Gleason
+         directions.addWaypoint(6, [-80.62292, 28.06279]);                     // Panther Statue
+         directions.addWaypoint(7, [-80.62430, 28.06280]);                     // Center of Olin Quad
+         directions.setDestination([-80.6245510687411, 28.0644945875813]);    // Skurla
       });
-      */
+
    });
 
-   
+
+
     
 
    // Update users current lat and lng
