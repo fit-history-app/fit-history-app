@@ -7,7 +7,6 @@ import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-load
 import Directions from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
 import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css'
 
-
 mapboxgl.accessToken = 'pk.eyJ1IjoidGVlbWFuMjIiLCJhIjoiY2w5ZDcxbWh0MDM4MTN3dDl3Nnk1bmh2MyJ9.kfti7m0R9PtYzfP-c7qK2Q';
 
 export default function App() {
@@ -18,6 +17,7 @@ export default function App() {
    const [lat, setLat] = useState(28.0645427);
    const [zoom, setZoom] = useState(14);
    const [inFloridaTech, setInFloridaTech] = useState("True!");
+   var directions_interactive = false;
 
    // HISTORY TIMELINE Vars
    var history, val, item, items = [];
@@ -78,7 +78,7 @@ export default function App() {
          inputs: false,
          profileSwitcher: false
       },   
-      interactive: true // switch to false for no clicking
+      interactive: directions_interactive // switch to false for no clicking
    });
 
    // Initialize map
@@ -150,6 +150,8 @@ export default function App() {
          }
 
       });
+
+      //TODO? Add a banner that allows for the user to know they left campus 
    });
 
    function load_tour1() {
@@ -195,8 +197,11 @@ export default function App() {
       directions.setOrigin([-80.62292, 28.06279]);     
       directions.setDestination([-80.62430, 28.06280]); 
    }
-
-
+   
+   function interactive_routing() {
+      directions_interactive = !directions_interactive  
+      // TODO: useEffect hook to make the mapobject reload the directions module
+   }
 
    return (
       <div>
@@ -218,6 +223,7 @@ export default function App() {
             <button onClick={load_tour1}>Load Tour #1</button>
             <button onClick={load_tour2}>Load Tour #2</button>
             <button onClick={load_tour3}>Load Tour #3</button>
+            <button onClick={interactive_routing}>Allow Interactive Directions</button>
          </div>
       </div>
    );
