@@ -221,6 +221,7 @@ export default function App() {
    
    function interactive_routing() {
       directions_interactive = !directions_interactive  
+
       // TODO: useEffect hook to make the mapobject reload the directions module
    }
 
@@ -238,6 +239,7 @@ export default function App() {
                            <p onClick={load_tour1}>Load Tour #1</p>
                            <p onClick={load_tour2}>Load Tour #2</p>
                            <p onClick={load_tour3}>Load Tour #3</p>
+                           <p onClick={interactive_routing}>Allow Interactive Directions</p>
                         </div>
                      </div>
                   </li>
@@ -282,13 +284,6 @@ export default function App() {
          <div align="center" className="latlong_display">
             {lat && <p>Latitude: {lat}</p>}
             {lng && <p>Longitude: {lng}</p>}
-         </div>
-
-         <div align="center">
-            {/* <button onClick={load_tour1}>Load Tour #1</button>
-            <button onClick={load_tour2}>Load Tour #2</button>
-            <button onClick={load_tour3}>Load Tour #3</button> */}
-            <button onClick={interactive_routing}>Allow Interactive Directions</button>
          </div>
       </div>
    );
