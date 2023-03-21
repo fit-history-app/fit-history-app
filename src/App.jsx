@@ -18,6 +18,7 @@ export default function App() {
    const [zoom, setZoom] = useState(14);
    const [inFloridaTech, setInFloridaTech] = useState("True!");
    var directions_interactive = false;
+   const [tour, setTour] = useState(null);
 
    // HISTORY TIMELINE Vars
    var history, val, item, items = [];
@@ -160,6 +161,9 @@ export default function App() {
       for(let i = 0; i < direction_len; i++) {
          directions.removeWaypoint(0)
       }
+
+      // Set Tour Header
+      setTour("Tour #1")
       
       directions.setOrigin([-80.62378, 28.06574]);                          // Middle of Academic Quad
       directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
@@ -180,6 +184,9 @@ export default function App() {
          directions.removeWaypoint(0)
       }
 
+      // Set Tour Header
+      setTour("Tour #2")
+
       directions.setOrigin([-80.62378, 28.06574]);                          // Middle of Academic Quad
       directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
       directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]);    // Shaw Hall
@@ -194,8 +201,22 @@ export default function App() {
          directions.removeWaypoint(0)
       }
 
+      // Set Tour Header
+      setTour("Tour #3")
+
       directions.setOrigin([-80.62292, 28.06279]);     
       directions.setDestination([-80.62430, 28.06280]); 
+   }
+
+   function remove_tour() {
+      // Remove 0th waypoint for each waypoint
+      let direction_len = directions.getWaypoints().length
+      for(let i = 0; i < direction_len; i++) {
+         directions.removeWaypoint(0)
+      }
+
+      // Set Tour Header
+      setTour(null)
    }
    
    function interactive_routing() {
@@ -243,6 +264,8 @@ export default function App() {
                         </div>
                      </div>
                   </li>
+                  <h3 className='header'>Current Tour: {tour}</h3>
+                  <button className='tourExit' onClick={remove_tour}>X</button>
                </ul>
             </div>
          </div>
