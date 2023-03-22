@@ -31,12 +31,17 @@
       -
       -
  - POI: All Faiths Center 
-   year_constr: 
+   year_constr: 1994
    description: 
       -
       -
  - POI: Allen S. Henry(ASC)
    year_constr: 
+   description: 
+      -
+      -
+ - POI: Atomic Toilet
+   year_constr: 1970
    description: 
       -
       -
@@ -56,17 +61,27 @@
       -
       -
  - POI: Clemente Center
-   year_constr: 
+   year_constr: 2001
    description: 
       -
       -
  - POI: Crawford Building
-   year_constr: 
+   year_constr: 1968
+   description: 
+      -
+      -
+ - POI: Denius Student Center
+   year_constr: 1967
    description: 
       -
       -
  - POI: Evans Hall/Rathskeller Building
    year_constr: 
+   description: 
+      -
+      -
+ - POI: Evans Library
+   year_constr: 1983
    description: 
       -
       -
@@ -81,7 +96,7 @@
       -
       -
  - POI: Gleason Performing Arts Center/WFIT
-   year_constr: 
+   year_constr: 1967
    description: 
       -
       -
@@ -100,8 +115,8 @@
    description: 
       -
       -
- - POI: Health Center
-   year_constr: 
+ - POI: Holzer Health Center
+   year_constr: 1981
    description: 
       -
       -
@@ -131,7 +146,7 @@
       -
       -
  - POI: John E. Miller Office Bldg
-   year_constr: 
+   year_constr: 1961
    description: 
       -
       -
@@ -146,7 +161,7 @@
       -
       -
  - POI: Link Building
-   year_constr: 
+   year_constr: 1977
    description: 
       -
       -
@@ -161,72 +176,72 @@
       -
       -
  - POI: Olin Engineering Complex
-   year_constr: 
+   year_constr: 1999
    description: 
       -
       -
  - POI: Olin Life Sciences
+   year_constr: 1999
+   description: 
+      -
+      -
+ - POI: Olin Physical Sciences
+   year_constr: 2005
+   description: 
+      -
+      -
+ - POI: Panther Dining Hall
    year_constr: 
    description: 
       -
       -
-- POI: Olin Physical Sciences
+ - POI: Pantherium
    year_constr: 
    description: 
       -
       -
-- POI: Panther Dining Hall
+ - POI: Ray A. Work Building (Telecommunications)
    year_constr: 
    description: 
       -
       -
-- POI: Pantherium
+ - POI: Roberts Hall
    year_constr: 
    description: 
       -
       -
-- POI: Ray A. Work Building (Telecommunications)
+ - POI: Ruth Funk Center
    year_constr: 
    description: 
       -
       -
-- POI: Roberts Hall
+ - POI: Scott Center for Autism Treatment
    year_constr: 
    description: 
       -
       -
-- POI: Ruth Funk Center
+ - POI: Security Welcome Center
    year_constr: 
    description: 
       -
       -
-- POI: Scott Center for Autism Treatment
+ - POI: Shaw Hall
    year_constr: 
    description: 
       -
       -
-- POI: Security Welcome Center
-   year_constr: 
+ - POI: Shepard Building
+   year_constr: 1981
    description: 
       -
       -
-- POI: Shaw Hall
-   year_constr: 
+ - POI: Skurla Hall
+   year_constr: 1990
    description: 
       -
       -
-- POI: Shepard Building
-   year_constr: 
-   description: 
-      -
-      -
-- POI: Skurla Hall
-   year_constr: 
-   description: 
-      -
-      -
-- POI: Wood Hall
-   year_constr: 
+ - POI: Wood Hall
+   year_constr: 1965
    description: 
       -
       -
