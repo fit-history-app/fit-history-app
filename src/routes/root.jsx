@@ -1,15 +1,15 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Chrono } from 'react-chrono';
 import { load } from 'js-yaml';
-import facts from './history.yaml';
-import poiwaypoints from './poi_waypoints.json';
+import facts from '../data/history.yaml';
+import poiwaypoints from '../data/poi_waypoints.json';
 import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import Directions from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
 import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css'
 
 mapboxgl.accessToken = 'pk.eyJ1IjoidGVlbWFuMjIiLCJhIjoiY2w5ZDcxbWh0MDM4MTN3dDl3Nnk1bmh2MyJ9.kfti7m0R9PtYzfP-c7qK2Q';
 
-export default function App() {
+export default function Root() {
    // Map Vars
    const mapContainer = useRef(null);
    const map = useRef(null);
