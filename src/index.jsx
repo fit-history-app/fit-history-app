@@ -6,12 +6,16 @@ import {
 } from "react-router-dom";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./index.css";
+
+// page imports
 import Root from "./routes/root";
+import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <ErrorPage />,
   },
 ]);
 
