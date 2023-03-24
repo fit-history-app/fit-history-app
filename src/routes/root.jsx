@@ -248,7 +248,7 @@ export default function Root() {
                         <button className='menuItem'>Games</button>
                         <div className='subMenuItem'>
                            <p>Scavenger Hunt</p>
-                           <p>History Trivia</p>
+                           <p><a href="/trivia">History Trivia</a></p>
                         </div>
                      </div>
                   </li>
