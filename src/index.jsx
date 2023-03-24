@@ -9,6 +9,7 @@ import "./styles/index.css";
 
 // page imports
 import Root from "./routes/root";
+import Trivia from "./routes/trivia/trivia";
 import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
+  },
+  {
+    path: "trivia",
+    element: <Trivia />,
   },
 ]);
 
