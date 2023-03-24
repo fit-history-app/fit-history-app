@@ -1,0 +1,112 @@
+.header {
+  background-color: rgba(234, 245, 255, 1);
+  color: #5a5a5a;
+  box-shadow: 0rem 0.1rem 0.2rem 0.2rem rgb(184, 184, 184);
+  padding: 0.2rem 0.45rem;
+  font-family: "Arial Rounded MT";
+  font-size: large;
+  display: flex;
+  z-index: 3;
+  position: sticky;
+  top: 0rem;
+  margin: 0rem;
+  width: 100%;
+  height: fit-content;
+  align-items: baseline;
+}
+
+.menuBar {
+  display: flex;
+  list-style-type: none;
+}
+
+.itemContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.menuItem {
+  background-color: rgba(234, 245, 255, 0.9);
+  color: #5a5a5a;
+  margin: 0rem 0.2rem 0 0;
+  padding: 0.2rem;
+  border: none;
+  font-family: "Arial Rounded MT";
+  font-size: large;
+}
+
+.itemContainer:hover .menuItem {
+  background-color: #c0c0c0;
+  border-radius: 0.5rem;
+}
+
+.subMenuItem {
+  display: none;
+  position: absolute;
+  border-radius: 0.1rem;
+  min-width: max-content;
+  background-color: rgba(234, 245, 255, 0.9);
+  box-shadow: 0rem 0.1rem 0.2rem 0.2rem rgb(184, 184, 184);
+  z-index: 1;
+}
+
+.subMenuItem p {
+  padding: 0 0.6rem;
+  margin: 0.3rem 0;
+}
+
+.subMenuItem p:hover,
+a:hover {
+  background-color: #c0c0c0;
+}
+
+.subMenuItem img {
+  width: 4rem;
+  display: block;
+}
+
+.Trivia {
+  text-align: center;
+}
+
+.Trivia-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Trivia-logo {
+    animation: Trivia-logo-spin infinite 20s linear;
+  }
+}
+
+.Trivia-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 2em;
+  color: white;
+}
+
+.Trivia-button {
+  background-color: #61dafb;
+  color: #2d41fc;
+  border-radius: 0.5em;
+  padding: 5;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+
+@keyframes Trivia-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
