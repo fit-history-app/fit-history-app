@@ -218,6 +218,15 @@ export default function Root() {
       // Set Tour Header
       setTour(null)
    }
+
+   // If tour == null, remove origin
+   const tourRef = useRef(tour); // use this to fix inifite loop?
+   useEffect(() => {
+      if (tour == null) {
+         directions.removeRoutes();
+      }
+
+    });
    
    function interactive_routing() {
       directions_interactive = !directions_interactive  
@@ -266,8 +275,9 @@ export default function Root() {
                         </div>
                      </div>
                   </li>
-                  <h3 className='header'>Current Tour: {tour}</h3>
-                  <button className='tourExit' onClick={remove_tour}>X</button>
+                  {/* Hide The Current Tour If None Selected */}
+                  {tour && <h3 className='header'>Current Tour: {tour}</h3>}
+                  {tour && <button className='tourExit' onClick={remove_tour}>X</button>}
                </ul>
             </div>
          </div>
