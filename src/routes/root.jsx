@@ -147,9 +147,9 @@ export default function Root() {
          if ((lat > 28.057913 && lat < 28.06969) && (lng > -80.625 && lng < -80.620)) {
             setInFloridaTech("True!");
          } else {
+            console.log(inFloridaTech)
             setInFloridaTech("False!");
          }
-
       });
 
       //TODO? Add a banner that allows for the user to know they left campus 
@@ -165,7 +165,7 @@ export default function Root() {
       // Set Tour Header
       setTour("Tour #1")
       
-      directions.setOrigin([-80.62378, 28.06574]);                          // Middle of Academic Quad
+      directions.setOrigin([lng, lat]);                                    // Start tour from current position
       directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
       directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]);    // Shaw Hall
       directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]);    // Rat
@@ -187,7 +187,7 @@ export default function Root() {
       // Set Tour Header
       setTour("Tour #2")
 
-      directions.setOrigin([-80.62378, 28.06574]);                          // Middle of Academic Quad
+      directions.setOrigin([lng, lat]);                                    // Start tour from current position
       directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
       directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]);    // Shaw Hall
       directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]);    // Rat
@@ -204,7 +204,7 @@ export default function Root() {
       // Set Tour Header
       setTour("Tour #3")
 
-      directions.setOrigin([-80.62292, 28.06279]);     
+      directions.setOrigin([lng, lat]);                                    // Start tour from current position   
       directions.setDestination([-80.62430, 28.06280]); 
    }
 
@@ -282,18 +282,13 @@ export default function Root() {
             </div>
          </div>
 
-         <div className="map-sidebar">
+         <div className="map-sidebar" style={{display : 'none'}}>
             Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} | Florida Tech: {inFloridaTech}
          </div>
          <div ref={mapContainer} className="map-container"></div>
 
          <div className='timeline'>
             <Chrono items={items} allowDynamicUpdate={true} mode='HORIZONTAL'/>
-         </div>
-
-         <div align="center" className="latlong_display">
-            {lat && <p>Latitude: {lat}</p>}
-            {lng && <p>Longitude: {lng}</p>}
          </div>
       </div>
    );
