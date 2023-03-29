@@ -288,7 +288,7 @@ export default function Root() {
          <div ref={mapContainer} className="map-container"></div>
 
          <div className='timeline'>
-            <Chrono items={items} allowDynamicUpdate={true} mode='HORIZONTAL'/>
+            <Chrono items={items} allowDynamicUpdate={true} showAllCardsHorizontal={true} activeItemIndex={items.length-1} mode='HORIZONTAL'/>
          </div>
       </div>
    );
