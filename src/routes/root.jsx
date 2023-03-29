@@ -147,7 +147,7 @@ export default function Root() {
          if ((lat > 28.057913 && lat < 28.06969) && (lng > -80.625 && lng < -80.620)) {
             setInFloridaTech("True!");
          } else {
-            console.log(inFloridaTech)
+            //console.log(inFloridaTech)
             setInFloridaTech("False!");
          }
       });
