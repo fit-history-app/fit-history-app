@@ -31,27 +31,22 @@
       -
       -
  - POI: All Faiths Center 
-   year_constr: 1994
+   year_constr: 2008
    description: 
       -
       -
  - POI: Allen S. Henry(ASC)
-   year_constr: 
-   description: 
-      -
-      -
- - POI: Atomic Toilet
-   year_constr: 1970
+   year_constr: 1997
    description: 
       -
       -
  - POI: Brownlie Hall 
-   year_constr: 
+   year_constr: 1958
    description: 
       -
       -
  - POI: Campbell Hall
-   year_constr: 
+   year_constr: 1968
    description: 
       -
       -
@@ -63,27 +58,22 @@
  - POI: Clemente Center
    year_constr: 2001
    description: 
-      -
-      -
- - POI: Crawford Building
-   year_constr: 1968
-   description: 
-      -
-      -
- - POI: Denius Student Center
-   year_constr: 1967
-   description: 
+      - The Charles and Ruth Clemente Center for Sports and recreation was opened in 2001, replacing the Hedgecock gymnasium.
+      - The Clemente center houses courts for the University's basketball and volleyball teams as well as a gym that is available for all Florida Tech Students.
+  - POI: Crawford Building
+    year_constr: 1961
+    description: 
       -
       -
  - POI: Evans Hall/Rathskeller Building
-   year_constr: 
+   year_constr: 1964
    description: 
       -
       -
  - POI: Evans Library
-   year_constr: 1983
+   year_constr: 1982
    description: 
-      -
+      - Evans Library is the University's library. With 4 floors, Evans Library houses many areas for students to study and collaborate as well as check out books.
       -
  - POI: Folliard Alumni Center
    year_constr: 
@@ -96,32 +86,32 @@
       -
       -
  - POI: Gleason Performing Arts Center/WFIT
-   year_constr: 1967
+   year_constr: 1992
    description: 
       -
       -
  - POI: Gordon L. Nelson Health Sciences
-   year_constr: 
+   year_constr: 2022
    description: 
       -
       -
  - POI: Grissom Hall
-   year_constr: 
+   year_constr: 1969
    description: 
       -
       -
  - POI: Harris Center for Science and Engineering
-   year_constr: 
+   year_constr: 2004 
    description: 
       -
       -
- - POI: Holzer Health Center
-   year_constr: 1981
+ - POI: Health Center
+   year_constr: 1974
    description: 
       -
       -
  - POI: Homer R. Denius Student Center
-   year_constr: 
+   year_constr: 1969
    description: 
       -
       -
@@ -140,13 +130,18 @@
    description: 
       -
       -
+- POI: Jerome P. Keuper Statue
+  year_constr: 2013
+  description: 
+      -
+      -
  - POI: Jerome P. Keuper Admin Building
-   year_constr: 
+   year_constr: 1973
    description: 
       -
       -
  - POI: John E. Miller Office Bldg
-   year_constr: 1961
+   year_constr: 
    description: 
       -
       -
@@ -176,72 +171,72 @@
       -
       -
  - POI: Olin Engineering Complex
-   year_constr: 1999
+   year_constr: 1997
    description: 
       -
       -
  - POI: Olin Life Sciences
-   year_constr: 1999
+   year_constr: 1997
    description: 
       -
       -
- - POI: Olin Physical Sciences
-   year_constr: 2005
-   description: 
+- POI: Olin Physical Sciences
+  year_constr: 
+  description: 
       -
       -
- - POI: Panther Dining Hall
-   year_constr: 
-   description: 
+- POI: Panther Dining Hall
+  year_constr: 
+  description: 
       -
       -
- - POI: Pantherium
-   year_constr: 
-   description: 
+- POI: Pantherium
+  year_constr: 2015
+  description: 
       -
       -
- - POI: Ray A. Work Building (Telecommunications)
-   year_constr: 
-   description: 
+- POI: Ray A. Work Building (Telecommunications)
+  year_constr: 1983 
+  description: 
       -
       -
- - POI: Roberts Hall
-   year_constr: 
-   description: 
+- POI: Roberts Hall
+  year_constr: 1964
+  description: 
       -
       -
- - POI: Ruth Funk Center
-   year_constr: 
-   description: 
+- POI: Ruth Funk Center
+  year_constr: 2009
+  description: 
       -
       -
- - POI: Scott Center for Autism Treatment
-   year_constr: 
-   description: 
+- POI: Scott Center for Autism Treatment
+  year_constr: 2009
+  description: 
       -
       -
- - POI: Security Welcome Center
-   year_constr: 
-   description: 
+- POI: Security Welcome Center
+  year_constr: 2014
+  description: 
       -
       -
- - POI: Shaw Hall
-   year_constr: 
-   description: 
+- POI: Shaw Hall
+  year_constr: 
+  description: 
       -
       -
- - POI: Shepard Building
-   year_constr: 1981
-   description: 
+- POI: Shepard Building
+  year_constr: 1965
+  description: 
       -
       -
- - POI: Skurla Hall
-   year_constr: 1990
-   description: 
+- POI: Skurla Hall
+  year_constr: 1963
+  description: 
       -
       -
- - POI: Wood Hall
-   year_constr: 1965
-   description: 
+- POI: Wood Hall
+  year_constr: 
+  description: 
       -
       -
