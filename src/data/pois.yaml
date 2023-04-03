@@ -1,83 +1,62 @@
 ---
 -POIs:
-  - POI: 402 Academic Quad 
+  - POI: Academic Quad 
     year_constr: 
     description:
-      -
-      -	
-  - POI: 403 Academic Quad
-    year_constr: 
+      -Located in the center of campus, the academic quad is one of the oldest set of buildings at Florida Tech.
+      -The academic quad is home to many classrooms, laboratories, and offices.
+      -In the middle of the academic quad, there is a grassy area offering many places for students to sit and study, as well as a statue of Florida Techs founder, Jerome Keuper.
+  - POI: All Faiths Center 
+    year_constr: 1994
     description: 
-      -
-      -
-  - POI: 404 Academic Quad
-    year_constr: 
+      -Opened in 1994, the All Faiths Center is located on the south side of campus and includes a 2 chapels, and the Fellowship hall.
+      -The center hosts many different religious activities for various faiths including but not limited to Christianity, Judaism, Islam, Buddhism, and Hinduism.
+      -It is open to all students and staff of Florida tech regardless of their faiths.
+      -Every Wednesday the All Faiths Center offers free meals to all students of Florida Tech during the school year.
+  - POI: Allen S. Henry(ASC)
+    year_constr: 1997
     description: 
-      -
-      -
-  - POI: 405 Academic Quad
-    year_constr: 
+      -Named after Dr. Allen S. Henry, a former Florida Tech president, the Allen S. Henry building is home to the Student Success and Support Center(SSSC).
+      -The SSSC offers academic help in most undergraduate subjects offered at Florida Tech and is free to all Florida Tech students.
+  - POI: Brownlie Hall 
+    year_constr: 1958
     description: 
-      -
-      -
- - POI: 406 Academic Quad (Copy Center)
-   year_constr: 
-   description: 
-      -
-      -
- - POI: 407 Academic Quad 
-   year_constr: 
-   description: 
-      -
-      -
- - POI: All Faiths Center 
-   year_constr: 2008
-   description: 
-      -
-      -
- - POI: Allen S. Henry(ASC)
-   year_constr: 1997
-   description: 
-      -
-      -
- - POI: Brownlie Hall 
-   year_constr: 1958
-   description: 
-      -
-      -
- - POI: Campbell Hall
-   year_constr: 1968
-   description: 
+      -Named after V.C. Brownlie, an early contributer to Florida Tech, Brownlie hall was built to accomodate the influx of students arriving during the early years of Florida Tech (Known as Brevard Engineering College then).
+      -Brownlie Hall features 2 floors and 2 wings (one for males, 1 for females), and pool welcome to all.
+  - POI: Campbell Hall
+    year_constr: 1968
+    description: 
       -
       -
  - POI: CAPs
    year_constr: 
    description: 
-      -
-      -
- - POI: Clemente Center
-   year_constr: 2001
-   description: 
+      - Orginally being ran by the Campus ministry, the Counseling and Psychological Services center provides Florida Tech students with a place to receive help with their mental health, completely for free.
+       -CAPs is no longer ran by the campus ministry but rather the school of Psychology. 
+  - POI: Clemente Center
+    year_constr: 2001
+    description: 
       - The Charles and Ruth Clemente Center for Sports and recreation was opened in 2001, replacing the Hedgecock gymnasium.
       - The Clemente center houses courts for the University's basketball and volleyball teams as well as a gym that is available for all Florida Tech Students.
   - POI: Crawford Building
     year_constr: 1961
     description: 
-      -
-      -
- - POI: Evans Hall/Rathskeller Building
-   year_constr: 1964
-   description: 
-      -
-      -
- - POI: Evans Library
-   year_constr: 1982
-   description: 
+      -Featuring 7 floors, the Crawford building is home to many classrooms, lecture halls, offices, and conference rooms.
+      -One of the older buildings at Florida Tech, constructed in 1961.
+  - POI: Evans Hall/Rathskeller Building
+    year_constr: 1964
+    description: 
+      -The top of evans hall is one of Florida Techs dormitories.
+      -Under Evans Hall, is home to Florida Techs rathskeller and black kats cafe, a pizza shop and cafe respectively. 
+  - POI: Evans Library
+    year_constr: 1983
+    description: 
       - Evans Library is the University's library. With 4 floors, Evans Library houses many areas for students to study and collaborate as well as check out books.
-      -
- - POI: Folliard Alumni Center
-   year_constr: 
-   description: 
+       -Named after the John Evans' mother and wife, Mr.Evans was a citrus grower and cattleman who offered his property to Florida Tech
+       -The property that Mr. Evans offered wasn't absorbed into Florida Tech but was instead purchased by the DeBartolo corporation and the Melbourne Square Mall was built instead.
+  - POI: Folliard Alumni Center
+    year_constr: 
+    description: 
       -
       -
  - POI: Frueaff Energy Research 
@@ -86,13 +65,13 @@
       -
       -
  - POI: Gleason Performing Arts Center/WFIT
-   year_constr: 1992
+   year_constr: 1966
    description: 
-      -
-      -
- - POI: Gordon L. Nelson Health Sciences
-   year_constr: 2022
-   description: 
+      -Named after W. Lansing Gleason, the Gleason Performing Arts Center hosts a 1,100 square foot stage for concerts, recitals, and plays.
+      -Adjoined in the same building is WFIT, Florida Techs radio station.
+  - POI: Gordon L. Nelson Health Sciences
+    year_constr: 2022
+    description: 
       -
       -
  - POI: Grissom Hall
@@ -105,14 +84,15 @@
    description: 
       -
       -
- - POI: Health Center
+ - POI: Holzer Health Center
    year_constr: 1974
    description: 
-      -
-      -
- - POI: Homer R. Denius Student Center
-   year_constr: 1969
-   description: 
+      -Named after Dr. Oswald Holzer, Dr. Holzer opened up the Holzer Health Center on campus, offering Health Services to Florida Tech students and staff.
+      -Dr. Holzer was an immigrant from Czechoslovakia, where he had to flee when the Nazis invaded in 1939.
+      -Dr. Holzer fled europe to Egypt, then Yemen, then Djibouti, then Singapore, then through China, then Peru, then Ecuador, until finally he settled in Melbourne, Florida in 1952, marking the end of his journey. 
+  - POI: Homer R. Denius Student Center
+    year_constr: 1969
+    description: 
       -
       -
  - POI: HV Bldg A "Harley Hall"
@@ -130,9 +110,9 @@
    description: 
       -
       -
-- POI: Jerome P. Keuper Statue
-  year_constr: 2013
-  description: 
+ - POI: Jerome P. Keuper Statue
+   year_constr: 2013
+   description: 
       -
       -
  - POI: Jerome P. Keuper Admin Building
@@ -148,21 +128,21 @@
  - POI: L3Harris Commons
    year_constr: 
    description: 
+      -Located across Babcock street from the rest of campus, the L3Harris Commons is home to Campus services as well as classrooms and offices.
       -
-      -
- - POI: L3Harris Student Design Center
-   year_constr: 
-   description: 
+  - POI: L3Harris Student Design Center
+    year_constr: 
+    description: 
       -
       -
  - POI: Link Building
    year_constr: 1977
    description: 
-      -
-      -
- - POI: Machine Shop
-   year_constr: 
-   description: 
+      -Named after Edwin Link, a scientist and friend of the University.
+      -The Link Building was built to house the Oceanography, ocean engineering, chemical engineering and biology programs that were offered in 70s and 80s.
+  - POI: Machine Shop
+    year_constr: 
+    description: 
       -
       -
  - POI: Mail and Shipping
@@ -180,63 +160,63 @@
    description: 
       -
       -
-- POI: Olin Physical Sciences
-  year_constr: 
-  description: 
+ - POI: Olin Physical Sciences
+   year_constr: 
+   description: 
       -
       -
-- POI: Panther Dining Hall
-  year_constr: 
-  description: 
+ - POI: Panther Dining Hall
+   year_constr: 2011
+   description: 
+      -Opened in 2011, the Panther Dining Hall, known as PDH to most students, is home to the University's main dining hall as well as featuring the Panther Grocery store.
+      -
+  - POI: Pantherium
+    year_constr: 2015
+    description: 
+      -An outdoor ampitheatre, perfect for hosting performanaces in the shining sun of Melbourne, Florida.
+      -
+  - POI: Ray A. Work Building (Telecommunications)
+    year_constr: 1983 
+    description: 
       -
       -
-- POI: Pantherium
-  year_constr: 2015
-  description: 
+ - POI: Roberts Hall
+   year_constr: 1964
+   description: 
       -
       -
-- POI: Ray A. Work Building (Telecommunications)
-  year_constr: 1983 
-  description: 
+ - POI: Ruth Funk Center
+   year_constr: 2009
+   description: 
       -
       -
-- POI: Roberts Hall
-  year_constr: 1964
-  description: 
+ - POI: Scott Center for Autism Treatment
+   year_constr: 2009
+   description: 
       -
       -
-- POI: Ruth Funk Center
-  year_constr: 2009
-  description: 
+ - POI: Security Welcome Center
+   year_constr: 2014
+   description: 
       -
       -
-- POI: Scott Center for Autism Treatment
-  year_constr: 2009
-  description: 
+ - POI: Shaw Hall
+   year_constr: 
+   description: 
       -
       -
-- POI: Security Welcome Center
-  year_constr: 2014
-  description: 
+ - POI: Shepard Building
+   year_constr: 1981
+   description: 
+      -Built in 1981, the Shepard build was named after Donald and Helen Shepard, founders of the Empire tool company, a company that provided financial and construction aid to Florida Tech in its early years.
       -
-      -
-- POI: Shaw Hall
-  year_constr: 
-  description: 
-      -
-      -
-- POI: Shepard Building
-  year_constr: 1965
-  description: 
-      -
-      -
-- POI: Skurla Hall
-  year_constr: 1963
-  description: 
-      -
-      -
-- POI: Wood Hall
-  year_constr: 
-  description: 
+  - POI: Skurla Hall
+    year_constr: 1963
+    description: 
+      -Dedicated to George Skurla in 1991, an early university trustee and the retired CEO of the Grumman Corporation.
+      -Skurla hall is home to the school of Aeronautics and features classrooms and lecture halls.
+  - POI: Wood Hall
+    year_constr: 
+    description: 
       -
       -
