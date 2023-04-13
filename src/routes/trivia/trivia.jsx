@@ -12,7 +12,7 @@ function Trivia() {
 
          <header className="Trivia-header">
          <div className='header'>
-            <h2>FL Tech History Tours</h2>
+            <h2><a href='/'>FL Tech History Tours</a></h2>
             <div>
                <ul className='menuBar'>
                   <li>

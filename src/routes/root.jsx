@@ -229,16 +229,19 @@ export default function Root() {
     });
    
    function interactive_routing() {
-      directions_interactive = !directions_interactive  
+      directions_interactive = !directions_interactive;
+
+      directions.interactive(directions_interactive);
 
       // TODO: useEffect hook to make the mapobject reload the directions module
    }
+
 
    return (
       <div>
 
          <div className='header'>
-            <h2>FL Tech History Tours</h2>
+            <h2><a href="/">FL Tech History Tours</a></h2>
             <div>
                <ul className='menuBar'>
                   <li>
@@ -282,7 +285,7 @@ export default function Root() {
             </div>
          </div>
 
-         <div className="map-sidebar" style={{display : 'none'}}>
+         <div className="map-sidebar">
             Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} | Florida Tech: {inFloridaTech}
          </div>
          <div ref={mapContainer} className="map-container"></div>

@@ -13,6 +13,7 @@
   right: 0;
   margin: 12px;
   border-radius: 4px;
+  display: none;
 }
 
 .header {
@@ -30,6 +31,15 @@
   width: auto;
   height: fit-content;
   align-items:baseline;
+}
+
+.header a {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+.header a:hover {
+  background-color: rgba(234, 245, 255, 1);
 }
 
 .menuBar {
@@ -67,12 +77,16 @@
   z-index: 1;
 }
 
+.subMenuItem a {
+  color: #5a5a5a;
+}
+
 .subMenuItem p {
   padding: 0 0.6rem;
   margin: 0.3rem 0;
 }
 
-.subMenuItem p:hover, a:hover {
+.subMenuItem p:hover, .subMenuItem a:hover {
   background-color: #c0c0c0;
 }
 

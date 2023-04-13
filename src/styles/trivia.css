@@ -50,6 +50,10 @@
   z-index: 1;
 }
 
+.subMenuItem a {
+  color: #5a5a5a;
+}
+
 .subMenuItem p {
   padding: 0 0.6rem;
   margin: 0.3rem 0;
