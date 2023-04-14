@@ -12,12 +12,20 @@
     {
       "text": "How Many Presidents has Florida Tech had?",
       "correct_answer": "5",
-      "incorrect_answers": ["3", "12", "6"]
+      "incorrect_answers": [
+        "3",
+        "12",
+        "6"
+      ]
     },
     {
       "text": "What frequency is WFIT on?",
       "correct_answer": "89.5 FM",
-      "incorrect_answers": ["76.3 FM", "1642 AM", "103.5 FM"]
+      "incorrect_answers": [
+        "76.3 FM",
+        "1642 AM",
+        "103.5 FM"
+      ]
     },
     {
       "text": "What college sports division is Florida Tech?",
@@ -40,12 +48,20 @@
     {
       "text": "How many Florida Tech alumni have been astronauts?",
       "correct_answer": "5",
-      "incorrect_answers": ["8", "0", "25"]
+      "incorrect_answers": [
+        "8",
+        "0",
+        "25"
+      ]
     },
     {
       "text": "How many acres is the botanical gardens on Florida Techs campus?",
       "correct_answer": "15",
-      "incorrect_answers": ["8", "2", "30"]
+      "incorrect_answers": [
+        "8",
+        "2",
+        "30"
+      ]
     },
     {
       "text": "What was Florida Tech called before taking on its current name?",
@@ -59,7 +75,11 @@
     {
       "text": "When was Florida Tech founded?",
       "correct_answer": "1958",
-      "incorrect_answers": ["1895", "1936", "1985"]
+      "incorrect_answers": [
+        "1895",
+        "1936",
+        "1985"
+      ]
     },
     {
       "text": "Who is Florida Tech's on-campus Student Center Named after?",

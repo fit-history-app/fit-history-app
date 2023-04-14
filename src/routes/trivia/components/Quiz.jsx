@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react'
-import styled from 'styled-components'
+import React, { useState, useEffect } from 'react';
+import styled from 'styled-components';
+import Button from "./Button";
 import GameOver from './GameOver';
-// import question_data from '../../../data/trivia_questions.json';
+import my_trivia from './../../../data/trivia_questions.json';
 
 const QuizWindow = styled.div`
     text-align: center;
@@ -20,29 +21,6 @@ const Options = styled.div`
     }
 `;
 
-const Option = styled.button`
-    display: block;
-    border: 1px solid #616A94;
-    border-radius: 15px;
-    padding: 15px 30px;
-    text-decoration: none;
-    color: #616A94;
-    background-color: #161A31;
-    transition: 0.3s;
-    font-size: 1em;
-    outline: none;
-    user-select: none;
-    margin-top: 1em;
-    cursor: pointer;
-    
-    @media screen and (min-width: 1180px) {
-        &:hover {
-            color: white;
-            background-color: #616A94;
-        }
-    }
-`;
-
 const Question = styled.div`
     width: 70%;
     margin: 0 auto;
@@ -52,9 +30,9 @@ const Quiz = () => {
 
    const [quiz, setQuiz] = useState([]);
    const [number, setNumber] = useState(0);
-   const [pts, setPts] = useState(0);
+   const [pts, setPts] = useState(0); 
 
-   const shuffle = (arr) => arr.sort(() => Math.random() - 0.5);
+   const shuffle = (arr) => arr.sort(() => (Math.random() > .5) ? 1 : -1);
 
    const pickAnswer = (e) => {
 
@@ -65,60 +43,8 @@ const Quiz = () => {
    }
 
    useEffect(() => {
-
-      const questions = JSON.parse(`
-         {
-            "questions": [
-               {
-                  "text": "What is Florida Tech's motto?",
-                  "correct_answer": "Ad Astra Per Scientiam",
-                  "incorrect_answers": [
-                     "Sumus Scientiam Ad Gradum Proximum",
-                     "Quinque Die Operantes Cum Planis",
-                     "Ad Caelum Per Ipsum "
-                  ]
-               },
-               {
-                  "text": "How Many Presidents has Florida Tech had?",
-                  "correct_answer": "5",
-                  "incorrect_answers": [
-                     "3",
-                     "12",
-                     "6"
-                  ]
-               },
-               {
-                  "text": "What frequency is WFIT on?",
-                  "correct_answer": "89.5 FM",
-                  "incorrect_answers": [
-                     "76.3 FM",
-                     "1642 AM",
-                     "103.5 FM"
-                  ]
-               },
-               {
-                  "text": "What college sports division is Florida Tech?",
-                  "correct_answer": "NCAA Division II",
-                  "incorrect_answers": [
-                     "NCAA Division III",
-                     "NCAA Division I",
-                     "American League"
-                  ]
-               },
-               {
-                  "text": "What does CAMID Stand for?",
-                  "correct_answer":
-                  "Center for Advanced Manufacturing and Innovative Design",
-                  "incorrect_answers": [
-                     "Center for Advancing and Mentoring Inspired Developers",
-                     "Complex to Align Microscopic Induction Diodes",
-                     "Counter for Aggravation of Mammalian Immune Disorders"
-                  ]
-               }
-            ]
-         }`
-      ).questions;
-
+      var questions = shuffle(my_trivia.questions).slice(0,5);
+      
 
       setQuiz(questions.map(item => (
 
@@ -143,7 +69,7 @@ const Quiz = () => {
 
                <Options>
                   {quiz[number].options.map((item, index) => (
-                     <Option key={index} dangerouslySetInnerHTML={{ __html: item }} onClick={pickAnswer}></Option>
+                     <Button key={index} dangerouslySetInnerHTML={{ __html: item }} onClick={pickAnswer}></Button>
                   ))}
                </Options>
             </>
