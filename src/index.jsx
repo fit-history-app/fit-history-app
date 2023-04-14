@@ -10,6 +10,7 @@ import "./styles/index.css";
 // page imports
 import Root from "./routes/root";
 import Trivia from "./routes/trivia/trivia";
+import Scav from "./routes/scav/scav";
 import ErrorPage from "./error-page";
 
 const router = createBrowserRouter([
@@ -19,7 +20,11 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
   },
   {
-    path: "trivia",
+    path: "/scav",
+    element: <Scav />,
+  },
+  {
+    path: "/trivia",
     element: <Trivia />,
   },
 ]);
