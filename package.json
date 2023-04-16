@@ -1,6 +1,6 @@
 {
   "name": "fit-history-tours",
-  "version": "0.2.0",
+  "version": "0.7.0",
   "private": true,
   "dependencies": {
     "@mapbox/mapbox-gl-directions": "^4.1.1",
