@@ -163,17 +163,17 @@ export default function Root() {
       }
 
       // Set Tour Header
-      setTour("Tour #1")
+      setTour("Full Campus Tour")
       
       directions.setOrigin([lng, lat]);                                    // Start tour from current position
       directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
       directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]);    // Shaw Hall
       directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]);    // Rat
-      directions.addWaypoint(3, [-80.62324, 28.06702]);                     // Middle of Botans Patch with Hut
-      directions.addWaypoint(4, [-80.62295, 28.06574]);                     // Library
+      directions.addWaypoint(3, [-80.62324, 28.06702]);                    // Middle of Botans Patch with Hut
+      directions.addWaypoint(4, [-80.62295, 28.06574]);                    // Library
       directions.addWaypoint(5, [-80.6230357600855, 28.0645758007761]);    // Gleason
-      directions.addWaypoint(6, [-80.62292, 28.06279]);                     // Panther Statue
-      directions.addWaypoint(7, [-80.62430, 28.06280]);                     // Center of Olin Quad
+      directions.addWaypoint(6, [-80.62292, 28.06279]);                    // Panther Statue
+      directions.addWaypoint(7, [-80.62430, 28.06280]);                    // Center of Olin Quad
       directions.setDestination([-80.6245510687411, 28.0644945875813]);    // Skurla
   }
 
@@ -185,13 +185,16 @@ export default function Root() {
       }
 
       // Set Tour Header
-      setTour("Tour #2")
+      setTour("Housing Tour")
 
-      directions.setOrigin([lng, lat]);                                    // Start tour from current position
-      directions.addWaypoint(0, [-80.6236784873690, 28.0664722507424]);    // Homer R. Denius Student Center
-      directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]);    // Shaw Hall
-      directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]);    // Rat
-      directions.setDestination([-80.6245510687411, 28.0644945875813]);    // Skurla
+      directions.setOrigin([lng, lat]);                           // Start tour from current position
+      directions.addWaypoint(0, [-80.62454555, 28.06934899]);     // Roberts
+      directions.addWaypoint(1, [-80.62289, 28.06929]);           // CV Center
+      directions.addWaypoint(2, [-80.62429396,	28.0678474]);     // Wood
+      directions.addWaypoint(3, [-80.6242530,	28.06735212]);    // Shaw
+      directions.addWaypoint(4, [-80.62521087,	28.0671871]);     // Brownlie
+      directions.addWaypoint(5, [-80.62169, 28.06552]);           // Southgate
+      directions.setDestination([-80.62253062,	28.05882285]);    // Farmer Hall
    }
 
    function load_tour3() {
@@ -202,10 +205,33 @@ export default function Root() {
       }
 
       // Set Tour Header
-      setTour("Tour #3")
+      setTour("Places to Eat")
 
-      directions.setOrigin([lng, lat]);                                    // Start tour from current position   
-      directions.setDestination([-80.62430, 28.06280]); 
+      directions.setOrigin([lng, lat]);                           // Start tour from current position   
+      directions.addWaypoint(0, [-80.62264153,	28.0622793]);     // PDH
+      directions.addWaypoint(1, [-80.62366024,	28.06647551]);    // SUB
+      directions.setDestination([-80.62308355,	28.0676121]);     // RAT
+   }
+
+   function load_tour4() {
+      // Remove 0th waypoint for each waypoint
+      let direction_len = directions.getWaypoints().length
+      for(let i = 0; i < direction_len; i++) {
+         directions.removeWaypoint(0)
+      }
+
+      // Set Tour Header
+      setTour("Academic Buildings")
+
+      directions.setOrigin([lng, lat]);                           // Start tour from current position  
+
+      directions.addWaypoint(0, [-80.62351488,	28.06603402]);    // Academic Quad
+      directions.addWaypoint(1, [-80.62301697,	28.06571013]);    // Library
+      directions.addWaypoint(2, [-80.62459202,	28.06441838]);    // Skurla
+      directions.addWaypoint(3, [-80.62392939,	28.06440304]);    // Crawford
+      directions.addWaypoint(4, [-80.6239268,	28.06322676]);    // OEC
+      directions.addWaypoint(5, [-80.62432478,	28.06169464]);    // L3 in Olin Quad
+      directions.setDestination([-80.62414047,	28.06073777]);    // HSDC
    }
 
    function remove_tour() {
@@ -225,7 +251,6 @@ export default function Root() {
       if (tour == null) {
          directions.removeRoutes();
       }
-
     });
    
    function interactive_routing() {
@@ -239,7 +264,6 @@ export default function Root() {
 
    return (
       <div>
-
          <div className='header'>
             <h2><a href="/">FL Tech History Tours</a></h2>
             <div>
@@ -248,10 +272,11 @@ export default function Root() {
                      <div className='itemContainer' id='tour'>
                         <button className='menuItem'>Tours</button>
                         <div className='subMenuItem'>
-                           <p onClick={load_tour1}>Load Tour #1</p>
-                           <p onClick={load_tour2}>Load Tour #2</p>
-                           <p onClick={load_tour3}>Load Tour #3</p>
-                           <p onClick={interactive_routing}>Allow Interactive Directions</p>
+                           <p onClick={load_tour1}>Full Campus Tour</p>
+                           <p onClick={load_tour2}>Housing Tour</p>
+                           <p onClick={load_tour3}>Places to Eat</p>
+                           <p onClick={load_tour4}>Academic Buildings</p>
+                           {/* <p onClick={interactive_routing}>Allow Interactive Directions</p> */}
                         </div>
                      </div>
                   </li>
