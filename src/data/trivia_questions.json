@@ -89,6 +89,562 @@
         "Ryan Stansifer",
         "Jerome \"Jerry\" P. Keuper"
       ]
-    }
+    },
+    {
+      "text": "Who was Florida Tech’s founder?",
+      "correct_answer": "Dr. Jerome “Jerry” Keuper",
+      "incorrect_answers": [
+        "Dr. William Johnson",
+        "Ms. Patricia Brown",
+        "Mr. Michael Davis"
+      ]
+    },
+    {
+      "text": "Who was the Crawford building named after?",
+      "correct_answer": "Fred Crawford",
+      "incorrect_answers": [
+        "John Johnson",
+        "Mary Smith",
+        "David Brown"
+      ]
+    },{
+      "text": "When did the Rathskeller open?",
+      "correct_answer": "1973",
+      "incorrect_answers": [
+        "1960",
+        "1985",
+        "1998"
+      ]
+    },
+    {
+      "text": "Which country is the Chao Tsu-yu clock a gift from?",
+      "correct_answer": "Taiwan",
+      "incorrect_answers": [
+        "Japan",
+        "South Korea",
+        "China"
+      ]
+    },
+    {
+      "text": "What is the name of a famed baseball player that played for FIT from 1986 to 1988?",
+      "correct_answer": "Tim Wakefield",
+      "incorrect_answers": [
+        "Tom Brady",
+        "Michael Jordan",
+        "Wayne Gretzky"
+      ]
+    },{
+      "text": "What building was in place before the Clemente Center was built?",
+      "correct_answer": "Hedgecock Gymnasium",
+      "incorrect_answers": [
+        "Johnson Hall",
+        "Smith Library",
+        "Davis Auditorium"
+      ]
+    },
+    {
+      "text": "Who was Florida Tech’s third president?",
+      "correct_answer": "Lynn Edward Weaver",
+      "incorrect_answers": [
+        "John Robert Skurla",
+        "Anthony James Catanese",
+        "Dwayne McCay"
+      ]
+    },
+    {
+      "text": "What was the school of Business called before 1990?",
+      "correct_answer": "The school of management",
+      "incorrect_answers": [
+        "The college of commerce",
+        "The faculty of business",
+        "The department of business administration"
+      ]
+    },
+    {
+      "text": "Who was Florida Tech’s first Astronaut?",
+      "correct_answer": "Kathryn Hire",
+      "incorrect_answers": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Sally Ride"
+      ]
+    },
+    {
+      "text": "What year did Florida Tech offer Computer Science as a degree?",
+      "correct_answer": "1966",
+      "incorrect_answers": [
+        "1975",
+        "1982",
+        "1990"
+      ]
+    },
+    {
+      "text": "What material was used in experiments in the “atomic toilet”?",
+      "correct_answer": "Cobalt-60",
+      "incorrect_answers": [
+        "Uranium-235",
+        "Plutonium-239",
+        "Cesium-137"
+      ]
+    },
+    {
+      "text": "What year did the Jensen Beach campus close?",
+      "correct_answer": "1986",
+      "incorrect_answers": [
+        "1975",
+        "1990",
+        "2001"
+      ]
+    },
+    {
+      "text": "What year did Florida Tech create the Hydrospace Technical Institute?",
+      "correct_answer": "1968",
+      "incorrect_answers": [
+        "1975",
+        "1982",
+        "1990"
+      ]
+    },
+    {
+      "text": "Where did Dr. Keuper work before becoming Florida Tech’s full-time president?",
+      "correct_answer": "RCA",
+      "incorrect_answers": [
+        "IBM",
+        "Lockheed Martin",
+        "Boeing"
+      ]
+    },
+    {
+      "text": "What hotel did Dr. Keuper and Harold Dibble organize an engineer’s cotillion to rally support for their idea of a college?",
+      "correct_answer": "Trade Winds Hotel",
+      "incorrect_answers": [
+        "Hilton Hotel",
+        "Marriott Hotel",
+        "Hyatt Hotel"
+      ]
+    },
+    {
+      "text": "What University allowed Brevard Engineering College to use its building on Country Club road?",
+      "correct_answer": "University of Melbourne",
+      "incorrect_answers": [
+        "Florida State University",
+        "University of Florida",
+        "University of Central Florida"
+      ]
+    },
+    {
+      "text": "Where did Brevard Engineering College have to relocate to in 1959?",
+      "correct_answer": "First Methodist Church at Waverly Place",
+      "incorrect_answers": [
+        "First Baptist Church at Oak Street",
+        "First Presbyterian Church at Riverside Drive",
+        "Grace Lutheran Church at Hibiscus Boulevard"
+      ]
+    },
+    {
+      "text": "In 1960, which company allowed Brevard Engineering College to use its building while it searched for a permanent campus?",
+      "correct_answer": "Radiation Inc. (now known at L3Harris)",
+      "incorrect_answers": [
+        "Harris Corporation",
+        "Lockheed Martin",
+        "Northrop Grumman"
+      ]
+    },
+    {
+      "text": "Who was Brevard Engineering College’s first graduate?",
+      "correct_answer": "Regan DuBose",
+      "incorrect_answers": [
+        "John Smith",
+        "Jane Doe",
+        "William Johnson"
+      ]
+    },
+    {
+      "text": "What was the name of the student-led magazine, published in the 1960s, that was a combination of Mad Magazine, Playboy, and Esquire?",
+      "correct_answer": "The Pelican",
+      "incorrect_answers": [
+        "The Falcon",
+        "The Eagle",
+        "The Phoenix"
+      ]
+    },
+    {
+      "text": "When was Brevard Engineering College’s first dorm built?",
+      "correct_answer": "July 1965",
+      "incorrect_answers": [
+        "January 1959",
+        "June 1960",
+        "September 1970"
+      ]
+    },
+    {
+      "text": "Who is the Campus Health Center named after?",
+      "correct_answer": "Dr. Oswald Holzer",
+      "incorrect_answers": [
+        "Dr. William Potter",
+        "Dr. Susan Smith",
+        "Dr. Michael Johnson"
+      ]
+    },
+    {
+      "text": "What do Florida Tech students often call the Rathskeller eatery?",
+      "correct_answer": "The Rat",
+      "incorrect_answers": [
+        "The Cave",
+        "The Den",
+        "The Hole"
+      ]
+    },
+    {
+      "text": "Before the construction of the Clemente Center, what was the campus' gymnasium called?",
+      "correct_answer": "The Hedgecock Gymnasium",
+      "incorrect_answers": [
+        "The Fitness Forum",
+        "The Panther Gymnasium",
+        "The Titan Arena"
+      ]
+    },
+    {
+      "text": "How much did Charles and Ruth Clemente donate to build the Clemente Center?",
+      "correct_answer": "$3.3 Million",
+      "incorrect_answers": [
+        "$1 Million",
+        "$5 Million",
+        "$10 Million"
+      ]
+    },
+    {
+      "text": "When was the Melbourne Schoolhouse built? When was it relocated to Florida Tech?",
+      "correct_answer": "1883, 1970",
+      "incorrect_answers": [
+        "1900, 1980",
+        "1920, 1960",
+        "1860, 1990"
+      ]
+    },
+    {
+      "text": "What was the name of the yacht that New York Governor Nelson Rockefeller donated?",
+      "correct_answer": "The Dragon Lady",
+      "incorrect_answers": [
+        "The Sea Princess",
+        "The Mermaid Queen",
+        "The Ocean Empress"
+      ]
+    },
+    {
+      "text": "What was Brevard engineering College going to change it's name to, before it decided on Florida Institute of Technology?",
+      "correct_answer": "The Florida Institute of Space Technology",
+      "incorrect_answers": [
+        "The Space Coast Engineering College",
+        "The Institute of Space and Technology",
+        "The Aerospace Technology Institute"
+      ]
+    },
+    {
+      "text": "What does Florida Tech's motto \"Ad Astra Per Scientiam\" mean?",
+      "correct_answer": "To the Stars through Science",
+      "incorrect_answers": [
+      "Science through the Stars",
+      "Science for the Future",
+      "Exploring the Cosmos"
+      ]
+    },
+    {
+      "text": "What was the name of FIT's entry for the 1967 TIME magazine college advertisement contest?",
+      "correct_answer": "The Moon and 37 cents",
+      "incorrect_answers": [
+        "The Stars and the Sky",
+        "The Sun and the Sea",
+        "The Earth and the Mountains"
+      ]
+    },
+    {
+      "text": "Who is the Florida Tech botanical garden named after?",
+      "correct_answer": "Joy and Gordon Patterson",
+      "incorrect_answers": [
+        "Mary and John Smith",
+        "Emily and William Johnson",
+        "Sarah and Michael Davis"
+      ]
+    },
+    {
+      "text": "What year did Florida Tech's founder, Dr. Keuper, step down as president?",
+      "correct_answer": "1987",
+      "incorrect_answers": [
+        "1975",
+        "1995",
+        "2007"
+      ]
+    },
+    {
+      "text": "What year was the Indian River lagoon research institute established?",
+      "correct_answer": "2013",
+      "incorrect_answers": [
+        "2010",
+        "2015",
+        "2008"
+      ]
+    },
+    {
+      "text": "Who owns and operates the Florida Tech Jet dragster?",
+      "correct_answer": "Larsen Motorsports",
+      "incorrect_answers": [
+        "Smith Racing",
+        "Johnson Motors",
+        "Brown Racing"
+      ]
+    },
+    {    
+      "text": "Who painted the Florida Tech mural located in downtown Melbourne?",    
+      "correct_answer": "Christopher Maslow",    
+      "incorrect_answers": [      
+        "Bob Ross",      
+        "Pablo Picasso",      
+        "Leonardo da Vinci"    
+      ]
+    },
+    {
+      "text": "What order did the Florida Tech presidents serve?",
+      "correct_answer": "1st Jerome P. Keuper, 2nd John E. Miller, 3rd Lynn E. Weaver, 4th Anthony J. Catanese, 5th T.Dwayne McCay",
+      "incorrect_answers": [
+        "1st Lynn E. Weaver, 2nd Anthony J. Catanese, 3rd Jerome P. Keuper, 4th T. Dwayne McCay, 5th John E. Miller",
+        "1st Anthony J. Catanese, 2nd Lynn E. Weaver, 3rd T. Dwayne McCay, 4th Jerome P. Keuper, 5th John E. Miller",
+        "1st T. Dwayne McCay, 2nd Anthony J. Catanese, 3rd Jerome P. Keuper, 4th Lynn E. Weaver, 5th John E. Miller"
+      ]
+    },
+    {
+      "text": "What is the name of the Florida Tech ROTC?",
+      "correct_answer": "The Panther Battalion",
+      "incorrect_answers": [
+        "The Titan Battalion",
+        "The Eagle Battalion",
+        "The Gator Battalion"
+      ]
+    },
+    {
+      "text": "What year did the Scott Center for Autism treatment open?",
+      "correct_answer": "2009",
+      "incorrect_answers": [
+        "2010",
+        "2008",
+        "2007"
+      ]
+    },
+    {
+      "text": "What was Florida Tech's motto before 'Ad Astra Per Scientiam'?",
+      "correct_answer": "High Tech with a Human Touch",
+      "incorrect_answers": [
+        "A Place of Opportunity",
+        "Tradition, Opportunity, and Innovation",
+        "Science with a Soul"
+      ]
+    },
+    {    
+      "text": "How many Florida Tech alumni are austronauts?",    
+      "correct_answer": "5",    
+      "incorrect_answers": [      
+        "2",      
+        "3",     
+        "4"    
+      ]
+    },
+    {
+      "text": "What is the nickname for the Botanical Gardens?",
+      "correct_answer": "The Jungle",
+      "incorrect_answers": [
+        "The Oasis",
+        "The Forest",
+        "The Meadow"
+      ]
+    },
+    {
+      "text": "What is the name of the annual festival that allows attendees to experice a variety of other cultures?",
+      "correct_answer": "The International Festival",
+      "incorrect_answers": [
+        "The World Festival",
+        "The Multicultural Festival",
+        "The Global Festival"
+      ]
+    },
+    {
+      "text": "In 1994, what NBA team practiced at Florida Tech's Hedgecock gymnasium?",
+      "correct_answer": "The Orlando Magic",
+      "incorrect_answers": [
+        "The Miami Heat",
+        "The Charlotte Hornets",
+        "The Washington Wizards"
+      ]
+    },
+    {
+      "text": "How much horse power does the Florida Tech jet dragster have?",
+      "correct_answer": "5,500",
+      "incorrect_answers": [
+        "4,500",
+        "6,500",
+        "7,500"
+      ]
+    },
+    {
+      "text": "What is Florida Tech's mascot named?",
+      "correct_answer": "Pete the Panther",
+      "incorrect_answers": [
+        "Penny the Panther",
+        "Paul the Panther",
+        "Patrick the Panther"
+      ]
+    },
+    {
+      "text": "How many sports does Florida Tech have teams in?",
+      "correct_answer": "18",
+      "incorrect_answers": [
+        "16",
+        "20",
+        "22"
+      ]
+    },
+    {
+      "text": "What award did The Crimson win in 2014?",
+      "correct_answer": "Society of Professional Journalists Regional Mark of Excellence",
+      "incorrect_answers": [
+        "National Press Club Award",
+        "Scripps Howard Award",
+        "Pulitzer Prize"
+      ]
+    },
+    {
+      "text": "What are Florida Tech's official colors?",
+      "correct_answer": "Red and Silver",
+      "incorrect_answers": [
+        "Blue and Gold",
+        "Green and Gold",
+        "Purple and Gold"
+      ]
+    },
+    {
+      "text": "What school did Florida Tech merge with in 1970 to form the School of Aeronautics?",
+      "correct_answer": "Aerospace Technical Institute",
+      "incorrect_answers": [
+        "Florida Air Academy",
+        "Space Coast Technical Institute",
+        "Florida Institute of Technology (Orlando)"
+      ]
+    },
+    {
+      "text": "What is the name of the telescope that was donated to Florida Tech in 1998?",
+      "correct_answer": "The Ortega Telescope",
+      "incorrect_answers": [
+        "The Hubble Telescope",
+        "The Kepler Telescope",
+        "The Chandra Telescope"
+      ]
+    },
+    {
+      "text": "What year did Florida Tech begin offering online degrees?",
+      "correct_answer": "2009",
+      "incorrect_answers": [
+        "2005",
+        "2012",
+        "2007"
+      ]
+    },
+    {
+      "text": "What year did the Harry P. Weber Archives open up?",
+      "correct_answer": "2014",
+      "incorrect_answers": [
+        "2010",
+        "2012",
+        "2016"
+      ]
+    },
+    {
+      "text": "What year did the Jensen Beach campus close?",
+      "correct_answer": "1986",
+      "incorrect_answers": [
+        "1990",
+        "1982",
+        "1988"
+      ]
+    },
+    {
+      "text": "What is Florida Tech's address?",
+      "correct_answer": "150 W. University Blvd.",
+      "incorrect_answers": [
+        "300 W. University Blvd.",
+        "100 W. University Blvd.",
+        "200 W. University Blvd."
+      ]
+    },
+    {
+      "text": "What was the First computer at Florida Tech?",
+      "correct_answer": "LGP-30",
+      "incorrect_answers": [
+        "IBM System/360",
+        "Apple Macintosh",
+        "ENIAC"
+      ]
+    },
+    {
+      "text": "How much did Florida Tech's first computer cost?",
+      "correct_answer": "$60,000",
+      "incorrect_answers": [
+        "$10,000",
+        "$100,000",
+        "$1,000,000"
+      ]
+    },
+    {
+      "text": "What year did Florida Tech start offering an undergraduate Computer Science degree?",
+      "correct_answer": "1966",
+      "incorrect_answers": [
+        "1970",
+        "1980",
+        "1990"
+      ]
+    },
+    {
+      "text": "What kind of trees were removed from Florida Tech in December 2021?",
+      "correct_answer": "All Pheonix Reclinata Palms",
+      "incorrect_answers": [
+        "Pine Trees",
+        "Oak Trees",
+        "Maple Trees"
+      ]
+    },
+    {
+      "text": "What kind of tree did Norman Lund own that Florida Tech's founder Dr. Kepuer want him to donate to Florida Tech?",
+      "correct_answer": "A Pheonix Reclinata Palm",
+      "incorrect_answers": [
+        "A Red Maple",
+        "A White Oak",
+        "A Douglas Fir"
+      ]
+    },
+    {
+      "text": "Why did Norman Lund decide to donate his beloved tree to campus?",
+      "correct_answer": "The Department of Transportation decided to widen U.S. Route 192, which would've overlapped with the tree.",
+      "incorrect_answers": [
+        "He was moving out of the area",
+        "He wanted to honor his late wife",
+        "He received a tax break for donating the tree"
+      ]
+    },
+    {
+      "text": "Who was the first person to broadcast their voice on WFIT?",
+      "correct_answer": "DJ Charlie Brown",
+      "incorrect_answers": [
+          "John Smith",
+          "Mary Johnson",
+          "Bob Davis"
+      ]
+    },
+    {
+      "text": "What were the first words broadcasted on WFIT?",
+      "correct_answer": "\"This is WFIT 91.5 in Melbourne, Florida.\"",
+      "incorrect_answers": [
+          "\"Welcome to WFIT\"",
+          "\"Tune in to WFIT for the best music\"",
+          "\"WFIT is the voice of the Space Coast\""
+      ]
+    }    
   ]
 }
