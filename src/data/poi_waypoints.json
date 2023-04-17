@@ -1,182 +1,463 @@
 {
-   "locations": [
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Crawford Building",
-         "description": "A northside park that is home to the Lincoln Park Zoo"
-       },
-       "geometry": {
-         "coordinates": [-80.62385,28.06451],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Miller Building",
-         "description": "A lakefront park on Chicago's south side"
-       },
-       "geometry": {
-         "coordinates": [-80.62438,28.06576],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Denius Student Center",
-         "description": "A downtown park known for its art installations and unique architecture"
-       },
-       "geometry": {
-         "coordinates": [-80.62385,28.06649],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Evans Library",
-         "description": "A downtown park that is the site of many of Chicago's favorite festivals and events"
-       },
-       "geometry": {
-         "coordinates": [-80.62299,28.06568],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Keuper Administration Building",
-         "description": "A large park on Chicago's northwest side"
-       },
-       "geometry": {
-         "coordinates": [-80.62446,28.06635],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Florida Institute of Technology Botanical Garden",
-         "description": "A large park near in Chicago's North Lawndale neighborhood"
-       },
-       "geometry": {
-         "coordinates": [-80.62290,28.06692],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Ruth Funk Esports Center",
-         "description": "A park on the Illinois-Indiana border featuring a historic fieldhouse"
-       },
-       "geometry": {
-         "coordinates": [-80.62307,28.06608],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Link Building",
-         "description": "A lakeside park that was the site of the 1893 World's Fair"
-       },
-       "geometry": {
-         "coordinates": [-80.62314,28.06527],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Gleason Performing Arts Building",
-         "description": "A large park in Chicago's Austin neighborhood"
-       },
-       "geometry": {
-         "coordinates": [-80.62328,28.06473],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Columbia Village",
-         "description": ""
-       },
-       "geometry": {
-         "coordinates": [-80.62312,28.06919],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Residence Quad",
-         "description": ""
-       },
-       "geometry": {
-         "coordinates": [-80.62395,28.06762],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Panthereum",
-         "description": ""
-       },
-       "geometry": {
-         "coordinates": [-80.62414,28.06684],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Florida Institute of Technology Work Building",
-         "description": ""
-       },
-       "geometry": {
-         "coordinates": [-80.62455,28.06512],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Skurla Hall",
-         "description": ""
-       },
-       "geometry": {
-         "coordinates": [-80.62448,28.06453],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Clemente Center",
-         "description": ""
-       },
-       "geometry": {
-         "coordinates": [-80.62289,28.06324],
-         "type": "Point"
-       }
-     },
-     {
-       "type": "Feature",
-       "properties": {
-         "title": "Panther Dining Hall",
-         "description": ""
-       },
-       "geometry": {
-         "coordinates": [-80.62288,28.06257],
-         "type": "Point"
-       }
-     }
-   ],
-   "type": "FeatureCollection"
- }
- 
+  "locations": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Crawford Building",
+        "description": "A northside park that is home to the Lincoln Park Zoo"
+      },
+      "geometry": {
+        "coordinates": [-80.62385, 28.06451],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "The Crawford Building",
+          "year": 1968,
+          "description": [
+            "Construction on the Crawford Science building began in December 1968.",
+            "Named after Fred Crawford, the building cost $1,250,000.",
+            "The building was completed in 1970."
+          ]
+        },
+        {
+          "Event": "The Atomic Toilet",
+          "year": 1970,
+          "description": [
+            "Woodbridge attempted to purify water using radioactive cobalt-60.",
+            "The tests were carried out next to the crawford building in an underground facility.",
+            "Students named the facility, the “atomic toilet”"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Miller Building",
+        "description": "A lakefront park on Chicago's south side"
+      },
+      "geometry": {
+        "coordinates": [-80.62438, 28.06576],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "BEC’s First Building",
+          "year": 1961,
+          "description": [
+            "In April 1961, Homer Denius, president of Radiation Inc., donated 1,000 shares of Radiation stock to help finance the administration building and first classrooms.",
+            "The 9,285- sq ft construction cost $75,000.",
+            "The Admin. Building (later named the John Miller Building) and the first classrooms were completed in May 1961."
+          ]
+        },
+        {
+          "Event": "Academic Reorganization",
+          "year": 1980,
+          "description": [
+            "In January 1980, John Miller ordered a major academic reorganization.",
+            "2 new schools were created: the School of Psychology and the School of Management and Humanities"
+          ]
+        },
+        {
+          "Event": "The Retirement of Dr. Keuper",
+          "year": 1986,
+          "description": [
+            "After 28 years as president, Keuper retired.",
+            "John Miller served as Florida Tech’s second president in 1986-1987.",
+            "In 1993, the president’s office building was renamed the John Miller Administrative Building."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Denius Student Center",
+        "description": "A downtown park known for its art installations and unique architecture"
+      },
+      "geometry": {
+        "coordinates": [-80.62385, 28.06649],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "BEC’s Second Relocation",
+          "year": 1960,
+          "description": [
+            "In 1960, BEC moved to its third home at Radiations Inc. ‘s Building NO. 1, adjacent to Melbourne’s airport.",
+            "Radiation Inc., now known as L3Harris, was founded by Homer Denius and George Shaw.",
+            "Shaw was a BEC trustee, and Denius was committed to the University, promising to donate 1,000 shares of Radiation stock to the school if it could not find a permanent home in Melbourne."
+          ]
+        },
+        {
+          "Event": "BEC’s First Building",
+          "year": 1961,
+          "description": [
+            "In April 1961, Homer Denius, president of Radiation Inc., donated 1,000 shares of Radiation stock to help finance the administration building and first classrooms.",
+            "The 9,285- sq ft construction cost $75,000.",
+            "The Admin. Building (later named the John Miller Building) and the first classrooms were completed in May 1961."
+          ]
+        },
+        {
+          "Event": "Construction Boom",
+          "year": 1960,
+          "description": [
+            "In the late 1960s, many new dorms, classrooms, labs, auditoriums, and arenas were added to the campus.",
+            "In May 1966, construction for the Gleason Auditorium began, named after W. Lansing Gleason. The project was completed in October, 1967. Consisting of 510 seats, the auditorium cost $310,000.",
+            "In August of 1967, the Denius student center began construction and cost $500,000. Construction lasted until 1968 where it was opened and became the focus of student activities.",
+            "In July of 1968, a $130,000 gym began construction, leading to intercollegiate athletic programs in crew, volleyball, soccer, and golf. In 1986, the gym was named in honor of Percy Hedgecock, a trustee and founder of Satellite beach.",
+            "In February 2000, in place of the Hedgecock Gym, the $6.6 million Charles and Ruth Clemente Recreation Center began construction."
+          ]
+        },
+        {
+          "Event": "Campus Dining",
+          "year": 1973,
+          "description": [
+            "Until 1973, the SUB cafeteria, located in the Denius student center, served as the school’s main dining facility. This changed when a new cafeteria was opened in Evans Hall, the Rathskeller."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Evans Library",
+        "description": "A downtown park that is the site of many of Chicago's favorite festivals and events"
+      },
+      "geometry": {
+        "coordinates": [-80.62299, 28.06568],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "Construction of the Evans Library",
+          "year": 1983,
+          "description": [
+            "In May 1983, construction started on a new university library. The project cost $4 million.",
+            "The Library was named in honor of John Evans' mother and wife.",
+            "John Evans was a Florida citrus grower and cattleman who offered his extensive property holdings on New Haven Avenue.",
+            "Mr. Evans' property was purchased by the DeBartolo corporation and was used to build the Melbourne Square Mall."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Keuper Administration Building",
+        "description": "A large park on Chicago's northwest side"
+      },
+      "geometry": {
+        "coordinates": [-80.62446, 28.06635],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "The Founding of Brevard Engineering College",
+          "year": 1958,
+          "description": [
+            "On July 6, 1958, Jerry Keuper and Harold Dibble organized an engineer’s cotillion at the Trade Winds Hotel to rally support for the proposed College.",
+            "The Engineer’s Cotillion provided money to pay for newspaper ads and class schedules.",
+            "In 1958, 148 male students and 6 female students signed up for BEC’s first Fall term, the average age was 33.",
+            "The University of Melbourne allowed BEC to use its building on Country Club Road as its college office.",
+            "Classes were Scheduled from 7 to 10 on Monday, Wednesday, and Friday Evenings in three rented class rooms at Eau Gallie Junior High School.",
+            "Tuition was $35 for one course, $68 for two courses, and $98 for three courses."
+          ]
+        },
+        {
+          "Event": "Gus Grissom Honorary doctorate",
+          "year": 1962,
+          "description": [
+            "In 1962, at BEC’s second commencement, Astronaut Gus Grissom received an honorary doctorate in space science from Jerry Keuper."
+          ]
+        },
+        {
+          "Event": "BEC inducted into ICUF",
+          "year": 1962,
+          "description": [
+            "In April of 1962, BEC was granted membership into the Independent Colleges and Universities of Florida.",
+            "In the Fall of 1962, Keuper resigned from RCA and became BEC’s full-time president."
+          ]
+        },
+        {
+          "Event": "RNC",
+          "year": 1968,
+          "description": [
+            "In 1968, the Republican Party held its national convention in Miami.",
+            "Keuper used his Republican friends at the convention to rally support for FIT.",
+            "Keupers persuasion led to New York’s governor, Nelson Rockefeller to donate his yacht, the Dragon Lady."
+          ]
+        },
+        {
+          "Event": "Playboy",
+          "year": 1968,
+          "description": [
+            "In 1968 Playboy Bunny, Kathy Kennedy presented Jerry Keuper with a lifetime subscription to Playboy Magazine at the November 1968 commemoration of the tenth anniversary of the college’s founding."
+          ]
+        },
+        {
+          "Event": "The Retirement of Dr. Keuper",
+          "year": 1986,
+          "description": [
+            "After 28 years as president, Keuper retired.",
+            "John Miller served as Florida Tech’s second president in 1986-1987.",
+            "In 1993, the president’s office building was renamed the John Miller Administrative Building."
+          ]
+        },
+        {
+          "Event": "Jerome P. Keuper passes away",
+          "year": 2002,
+          "description": [
+            "At 81, Florida Techs founder and first president, Jerome P. Keuper passed away."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Florida Institute of Technology Botanical Garden",
+        "description": "A large park near in Chicago's North Lawndale neighborhood"
+      },
+      "geometry": {
+        "coordinates": [-80.6229, 28.06692],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "The Melbourne Schoolhouse",
+          "year": 1970,
+          "description": [
+            "In 1970, the Melbourne schoolhouse (built in 1883), found a new home at the edge of the college’s botanical garden in 1970.",
+            "The schoolhouse sits at 9 by 12 feet and the first class of students consisted of both African-American students and White students, though they had separate sessions."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Ruth Funk Esports Center",
+        "description": "A park on the Illinois-Indiana border featuring a historic fieldhouse"
+      },
+      "geometry": {
+        "coordinates": [-80.62307, 28.06608],
+        "type": "Point"
+      },
+      "timeline": []
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Link Building",
+        "description": "A lakeside park that was the site of the 1893 World's Fair"
+      },
+      "geometry": {
+        "coordinates": [-80.62314, 28.06527],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "The Link Engineering Building",
+          "year": 1977,
+          "description": [
+            "Completed in 1977, the link engineering building was officially dedicated in 1979.",
+            "Edwin Link was a scientist and friend of the University. He devised the first flight simulator and did research in ocean engineering.",
+            "The Link building served as home for the oceanography, ocean engineering, chemical engineering, and biology programs in the 1970s and 1980s."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Gleason Performing Arts Building",
+        "description": "A large park in Chicago's Austin neighborhood"
+      },
+      "geometry": {
+        "coordinates": [-80.62328, 28.06473],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "Construction Boom",
+          "year": 1960,
+          "description": [
+            "In the late 1960s, many new dorms, classrooms, labs, auditoriums, and arenas were added to the campus.",
+            "In May 1966, construction for the Gleason Auditorium began, named after W. Lansing Gleason. The project was completed in October, 1967. Consisting of 510 seats, the auditorium cost $310,000.",
+            "In August of 1967, the Denius student center began construction and cost $500,000. Construction lasted until 1968 where it was opened and became the focus of student activities.",
+            "In July of 1968, a $130,000 gym began construction, leading to intercollegiate athletic programs in crew, volleyball, soccer, and golf. In 1986, the gym was named in honor of Percy Hedgecock, a trustee and founder of Satellite beach.",
+            "In February 2000, in place of the Hedgecock Gym, the $6.6 million Charles and Ruth Clemente Recreation Center began construction."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Columbia Village",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-80.62312, 28.06919],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "The Columbia Shuttle Disaster",
+          "year": 1998,
+          "description": [
+            "Mission specialist Kathryn Hire, Florida Tech’s first astronaut, was one of the crew aboard the Space Shuttle Columbia, which lifted off from Launch Pad 39B on April 17, 1998.",
+            "The shuttle exploded, killing all members aboard.",
+            "Columbia Village’s halls are named after the members that lost their life during this incident."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Residence Quad",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-80.62395, 28.06762],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "Campus Dining",
+          "year": 1973,
+          "description": [
+            "Until 1973, the SUB cafeteria, located in the Denius student center, served as the school’s main dining facility. This changed when a new cafeteria was opened in Evans Hall, the Rathskeller."
+          ]
+        },
+        {
+          "Event": "BEC’s first Dorm",
+          "year": 1965,
+          "description": [
+            "BEC’s first dorm was constructed in July 1965. The dorm housed 65 of the 100 full-time students entering the freshman class.",
+            "The other 35 joined the 95 full-time upperclassmen who were housed throughout the community, as the college rushed to complete the second dorm.",
+            "Total enrollment exceeded 1,000 students in September 1965.",
+            "The second dorm was named in honor of George Shaw, and Brownlie Hall was named in honor of V.C. Brownlie, because of his contributions to the college."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Panthereum",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-80.62414, 28.06684],
+        "type": "Point"
+      },
+      "timeline": []
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Florida Institute of Technology Work Building",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-80.62455, 28.06512],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "BEC’s Sports",
+          "year": 1964,
+          "description": [
+            "In 1964, Ray Work, the schools registrar, was approached by students to ask for his support in organizing the college’s first basketball team.",
+            "In February 1965, Andy Seminick, a veteran Philadelphia major-leaguer, became the college’s first athletic director. Dr. Joseph Dollar served as assistant director."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Skurla Hall",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-80.62448, 28.06453],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "Skurla",
+          "year": 1991,
+          "description": [
+            "The Skurla Airway Sciences Building was dedicated in 1991 in honor of George Skurla, university trustee and retired CEO of the Grumman Corporation.",
+            "Provided needed classroom and laboratory space for the School of Aeronautics."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Clemente Center",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-80.62289, 28.06324],
+        "type": "Point"
+      },
+      "timeline": [
+        {
+          "Event": "Construction Boom",
+          "year": 1960,
+          "description": [
+            "In the late 1960s, many new dorms, classrooms, labs, auditoriums, and arenas were added to the campus.",
+            "In May 1966, construction for the Gleason Auditorium began, named after W. Lansing Gleason. The project was completed in October, 1967. Consisting of 510 seats, the auditorium cost $310,000.",
+            "In August of 1967, the Denius student center began construction and cost $500,000. Construction lasted until 1968 where it was opened and became the focus of student activities.",
+            "In July of 1968, a $130,000 gym began construction, leading to intercollegiate athletic programs in crew, volleyball, soccer, and golf. In 1986, the gym was named in honor of Percy Hedgecock, a trustee and founder of Satellite beach.",
+            "In February 2000, in place of the Hedgecock Gym, the $6.6 million Charles and Ruth Clemente Recreation Center began construction."
+          ]
+        },
+        {
+          "Event": "Temporary Classrooms",
+          "year": 1970,
+          "description": [
+            "Due to the influx of student’s enrolling in the 1970s, FIT was forced to create temporary classrooms behind the gymnasium.",
+            "These were later removed in 1999, when the Charles and Ruth Clemente Center for Sports and Recreation was being planned."
+          ]
+        },
+        {
+          "Event": "Clemente Center donation",
+          "year": 1999,
+          "description": [
+            "In June 1999, Charles and Ruth Clemente donated $3.3 million to build a new sports and recreational complex on the site of the Hedgecock Gymnasium and classroom annex.",
+            "The F.W. Olin Foundation provided an additional $3.3 million."
+          ]
+        },
+        {
+          "Event": "Clemente Center opened",
+          "year": 2001,
+          "description": [
+            "In 2001, the Clemente Center was opened, fully replacing the Hedgecock gymnasium."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Panther Dining Hall",
+        "description": ""
+      },
+      "geometry": {
+        "coordinates": [-80.62288, 28.06257],
+        "type": "Point"
+      },
+      "timeline": []
+    }
+  ],
+  "type": "FeatureCollection"
+}
