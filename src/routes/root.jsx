@@ -7,7 +7,13 @@ import mapboxgl from "!mapbox-gl"; // eslint-disable-line import/no-webpack-load
 import Directions from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
 import "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css";
 
+import { MapProvider, mapContext } from "./context/mapContext";
+import Map from "./components/Map";
+
 export default function Root() {
+
+  const [map, setMap] = useContext(mapContext);
+
   // HISTORY TIMELINE Vars
   var history,
     val,
@@ -56,73 +62,97 @@ export default function Root() {
 
   function load_tour1() {
     // Remove 0th waypoint for each waypoint
-    let direction_len = directions.getWaypoints().length;
+    let direction_len = map.directions.getWaypoints().length;
     for (let i = 0; i < direction_len; i++) {
-      directions.removeWaypoint(0);
+      map.directions.removeWaypoint(0);
     }
 
     // Set Tour Header
-    setTour("Tour #1");
+    map.setTour("Tour #1");
 
-    directions.setOrigin([-80.62378, 28.06574]); // Middle of Academic Quad
-    directions.addWaypoint(0, [-80.623678487369, 28.0664722507424]); // Homer R. Denius Student Center
-    directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]); // Shaw Hall
-    directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]); // Rat
-    directions.addWaypoint(3, [-80.62324, 28.06702]); // Middle of Botans Patch with Hut
-    directions.addWaypoint(4, [-80.62295, 28.06574]); // Library
-    directions.addWaypoint(5, [-80.6230357600855, 28.0645758007761]); // Gleason
-    directions.addWaypoint(6, [-80.62292, 28.06279]); // Panther Statue
-    directions.addWaypoint(7, [-80.6243, 28.0628]); // Center of Olin Quad
-    directions.setDestination([-80.6245510687411, 28.0644945875813]); // Skurla
+    map.directions.setOrigin([-80.62378, 28.06574]); // Middle of Academic Quad
+    map.directions.addWaypoint(0, [-80.623678487369, 28.0664722507424]); // Homer R. Denius Student Center
+    map.directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]); // Shaw Hall
+    map.directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]); // Rat
+    map.directions.addWaypoint(3, [-80.62324, 28.06702]); // Middle of Botans Patch with Hut
+    map.directions.addWaypoint(4, [-80.62295, 28.06574]); // Library
+    map.directions.addWaypoint(5, [-80.6230357600855, 28.0645758007761]); // Gleason
+    map.directions.addWaypoint(6, [-80.62292, 28.06279]); // Panther Statue
+    map.directions.addWaypoint(7, [-80.6243, 28.0628]); // Center of Olin Quad
+    map.directions.setDestination([-80.6245510687411, 28.0644945875813]); // Skurla
   }
 
   function load_tour2() {
     // Remove 0th waypoint for each waypoint
-    let direction_len = directions.getWaypoints().length;
+    let direction_len = map.directions.getWaypoints().length;
     for (let i = 0; i < direction_len; i++) {
-      directions.removeWaypoint(0);
+      map.directions.removeWaypoint(0);
     }
 
     // Set Tour Header
-    setTour("Tour #2");
+    map.setTour("Tour #2");
 
-    directions.setOrigin([-80.62378, 28.06574]); // Middle of Academic Quad
-    directions.addWaypoint(0, [-80.623678487369, 28.0664722507424]); // Homer R. Denius Student Center
-    directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]); // Shaw Hall
-    directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]); // Rat
-    directions.setDestination([-80.6245510687411, 28.0644945875813]); // Skurla
+    map.directions.setOrigin([-80.62378, 28.06574]); // Middle of Academic Quad
+    map.directions.addWaypoint(0, [-80.623678487369, 28.0664722507424]); // Homer R. Denius Student Center
+    map.directions.addWaypoint(1, [-80.6242591223761, 28.0673817308664]); // Shaw Hall
+    map.directions.addWaypoint(2, [-80.6231026353109, 28.0676384670891]); // Rat
+    map.directions.setDestination([-80.6245510687411, 28.0644945875813]); // Skurla
   }
 
   function load_tour3() {
     // Remove 0th waypoint for each waypoint
-    let direction_len = directions.getWaypoints().length;
+    let direction_len = map.directions.getWaypoints().length;
     for (let i = 0; i < direction_len; i++) {
-      directions.removeWaypoint(0);
+      map.directions.removeWaypoint(0);
     }
 
     // Set Tour Header
-    setTour("Tour #3");
+    map.setTour("Tour #3");
 
-    directions.setOrigin([-80.62292, 28.06279]);
-    directions.setDestination([-80.6243, 28.0628]);
+    map.directions.setOrigin([-80.62292, 28.06279]);
+    map.directions.setDestination([-80.6243, 28.0628]);
   }
 
   function remove_tour() {
     // Remove 0th waypoint for each waypoint
-    let direction_len = directions.getWaypoints().length;
+    let direction_len = map.directions.getWaypoints().length;
     for (let i = 0; i < direction_len; i++) {
-      directions.removeWaypoint(0);
+      map.directions.removeWaypoint(0);
     }
 
     // Set Tour Header
-    setTour(null);
+    map.setTour(null);
   }
 
+
   function interactive_routing() {
-    directions_interactive = !directions_interactive;
+    map.directions_interactive = !map.directions_interactive;
 
     // TODO: useEffect hook to make the mapobject reload the directions module
   }
+
+  // Update users current lat and lng
+  useEffect(() => {
+    if (!map.current) return; // wait for map to initialize
+    map.current.on("move", () => {
+      map.setLng(map.current.getCenter().map.lng.toFixed(6));
+      map.setLat(map.current.getCenter().map.lat.toFixed(6));
+      map.setZoom(map.current.getZoom().toFixed(2));
+
+      if (
+        map.lat > 28.057913 &&
+        map.lat < 28.06969 &&
+        map.lng > -80.625 &&
+        map.lng < -80.62
+      ) {
+        map.setInFloridaTech("True!");
+      } else {
+        map.setInFloridaTech("False!");
+      }
+    });
+
+    //TODO? Add a banner that allows for the user to know they left campus
+  });
 
   return (
     <div>
@@ -178,7 +208,7 @@ export default function Root() {
                 </div>
               </div>
             </li>
-            <h3 className="header">Current Tour: {tour}</h3>
+            <h3 className="header">Current Tour: {map.tour}</h3>
             <button className="tourExit" onClick={remove_tour}>
               X
             </button>
@@ -187,20 +217,21 @@ export default function Root() {
       </div>
 
       <div className="map-sidebar">
-        Longitude: {lng} | Latitude: {lat} | Zoom: {zoom} | Florida Tech:{" "}
-        {inFloridaTech}
+        Longitude: {map.lng} | Latitude: {map.lat} | Zoom: {map.zoom} | Florida Tech:{" "}
+        {map.inFloridaTech}
       </div>
-      <div ref={mapContainer} className="map-container"></div>
 
-      <div id="map-container"></div>
+      <MapProvider>
+        <Map />
+      </MapProvider>
 
       <div className="timeline">
         <Chrono items={items} allowDynamicUpdate={true} mode="HORIZONTAL" />
       </div>
 
       <div align="center" className="latlong_display">
-        {lat && <p>Latitude: {lat}</p>}
-        {lng && <p>Longitude: {lng}</p>}
+        {map.lat && <p>Latitude: {map.lat}</p>}
+        {map.lng && <p>Longitude: {map.lng}</p>}
       </div>
     </div>
   );
