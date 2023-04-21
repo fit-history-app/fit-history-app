@@ -122,6 +122,12 @@
     year: 1966
     description: 
       -Oceanography was launched in 1966, and Ocean engineering was launched in 1972. 
+  - Event: Apollo 1 Disaster
+    year: 1967
+    description: 
+      -During a prelaunch test for an upcoming mission, the command module interior of Launch Pad 34 caught fire.
+      -Astronaut and Florida Tech friend, Gus Grissom was among the 3 victims. 
+      -Grissom Hall was named in Mr. Grissom's honor.
   - Event: The Crawford Building
     year: 1968 
     description: 
@@ -308,11 +314,15 @@
     description: 
       -The Skurla Airway Sciences Building was dedicated in 1991 in honor of George Skurla, university trustee and retired CEO of the Grumman Corporation.
       -Provided needed classroom and laboratory space for the School of Aeronautics.
-  - Event: Tim Wakefield
+  - Event: Tim Wakefield named National League Rookie Pitcher of the Year
     year: 1992
     description: 
       -Tim Wakefield, a baseball player for FIT from 1986 to 1988, went on to play for the Pittsburgh Pirates and the Boston Red Sox.
       -In 1992, Wakefield was named National League Rookie Pitcher of the Year.
+  - Event: The Orlando Magic visit Florida Tech
+    year: 1994
+    description: 
+      -In April of 1994, the Orlando Magic NBA team visted Florida Tech to practice in the Hedgecock gymnasium.
   - Event: The Olin Foundation
     year: 1997
     description: 
@@ -343,10 +353,11 @@
    year: 2002
    description: 
       -President Lynn Edward Weaver retires.
- - Event: Florida Techs 55th Aniversary
+ - Event: Florida Tech's 60th Aniversary
    year: 2018
    description: 
       -In 2018, Florida Tech turned 60 years old!
+-2020s:
  - Event: President T. Dwayne McCay Retires
    year: 2021
    description: 
@@ -360,3 +371,9 @@
    description: 
     -At the end of 2022, Florida Tech completed construction on the Gordon L. Neslon Health Sciences building.
     -The building cost $18 million, and hopes to provide students with state of the art facilities for biomedical engineering and premedical programs.
+ - Event: Dr. John Nicklow announced as president
+   year: 2023
+   description: 
+    -Announced March 30th, 2023, Dr. John Nicklow is set to become Florida Tech's president, effective July 1st, 2023, replacing interim president, Robert King.
+    -After a year long search, and 112 applicants, it was announced on January 27th, 2023, that 5 finalists were being considered as Florida Tech's next president.
+    -These 5 being, Dr. Wolf Yeigh, Dr. Louis Martin-Vega, Dr. John Wiencek, Dr. Jennifer Sinclair Curtis, and the chosen Dr. John Nicklow.
